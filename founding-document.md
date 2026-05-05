@@ -22,7 +22,7 @@ We do not need another platform. We need something different in kind: a layer be
 
 ## One Movement
 
-Environmental protection, human rights, and social justice are not separate causes with overlapping interests. They are a single phenomenon: humanity's immune response to a systemic threat.¹
+Environmental protection, human rights, and social justice are not separate causes with overlapping interests. They are a single phenomenon which can be seen as humanity's immune response to a systemic threat.¹
 
 Immune responses are distributed — no central command, no single leader, no shared manifesto. They are triggered by contact with a common pathogen, not by ideology. They are proportionate to threat. And in healthy organisms they are, ultimately, effective — not because any single cell defeats the pathogen, but because the collective response reaches a threshold at which the pathogen can no longer replicate faster than it is contained.
 
