@@ -1,4 +1,4 @@
-# A Commons Layer for Earth
+# A Commons Layer for a Global Populace
 ### A founding design philosophy — v0.3 draft / not for publication
 
 ---
@@ -10,7 +10,7 @@
 
 ## The problem this addresses
 
-Every major institution through which human consensus has historically been expressed — governments, media, religious bodies, international organisations — was built in an era of scarcity: scarce communication, scarce literacy, scarce bandwidth. These institutions concentrated the power to define what counted as legitimate concern, who got to speak, and whose voice carried weight. That concentration of definitional power is the root of most of what is now broken.
+Every major institution through which human consensus has historically been expressed — governments, media, religious bodies, international organisations — was built in an era of scarcity: scarce communication, scarce literacy, scarce bandwidth. These institutions concentrated the power to define what counted as legitimate concern, who got to speak, and whose voice carried weight. That concentration of definitional power is the root of most of what is now broken in our global society.
 
 The information age promised to change this. It has not, for a simple reason: the new infrastructure of communication was built on the same old model — attention as commodity, engagement as profit, outrage as fuel. The result is not a global conversation. It is a global cacophony, deliberately amplified, in which the signal of genuine human concern drowns in engineered noise.
 
