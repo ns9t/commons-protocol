@@ -1,4 +1,4 @@
-# A Commons Layer for a Global Populace
+# Global Commons Consensus Protocol
 ### A founding design philosophy — v0.6 draft / not for publication
 
 ---
