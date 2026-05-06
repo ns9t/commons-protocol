@@ -1,5 +1,5 @@
 # A Commons Layer for a Global Populace
-### A founding design philosophy — v0.5 draft / not for publication
+### A founding design philosophy — v0.6 draft / not for publication
 
 ---
 
@@ -119,6 +119,24 @@ The governance of the elevation process — who makes determinations, how gaming
 
 ---
 
+## What a question looks like in practice
+
+To make the above concrete, consider the following illustrative example.
+
+A question that would fail the protocol's neutrality test: *"Should Brazil stop destroying the Amazon?"* — the word "destroying" embeds an evaluative position and implies a predetermined answer.
+
+The same concern, framed to protocol standard, might read:
+
+> *"The Brazilian government has authorised the clearing of approximately 11,400 square kilometres of Amazon rainforest for agricultural use in 2024. This region contains an estimated 10% of all species on Earth and functions as a carbon sink equivalent in effect to removing 2.3 billion cars from global roads annually. Do you consider this rate of clearance acceptable given its documented global consequences?"*
+
+Attached to this question is an open evidence record — a structured, citable bibliography of independently verifiable sources that any participant can consult before responding. The response options are not a simple yes/no binary but a structured set: *Acceptable / Acceptable with conditions / Not acceptable / Insufficient information to decide.* The final option is itself meaningful signal — it indicates where the information environment available to participants is inadequate.
+
+Once responses have been collected from a verified, representative, cross-cultural sample above the defined threshold, the output becomes a permanent record: *"Of 4.2 million verified participants across 94 countries and 47 language groups, 78% considered this rate of clearance not acceptable. 12% acceptable with conditions. 6% acceptable. 4% had insufficient information to decide."* That record is cryptographically signed, timestamped, permanently archived, and publicly citable. It cannot be deleted or altered.
+
+This is what the Commons Layer produces. Not a campaign. Not a petition. A record.
+
+---
+
 ## Visualising interconnection
 
 The Commons Layer should include, as a core interface element, an interactive planetary map that makes systemic connections visible — not as argument, but as queryable, geographic, living data.
@@ -205,7 +223,7 @@ If you want to contribute, open an issue in this repository or propose a revisio
 
 ---
 
-*Version 0.5 — working draft — not for publication*
+*Version 0.6 — working draft — not for publication*
 *No author. No organisation.*
 *Released under Creative Commons Attribution-NonCommercial-ShareAlike 4.0*
 *This document is in the public domain of ideas.*
