@@ -1,5 +1,5 @@
 # A Commons Layer for a Global Populace
-### A founding design philosophy — v0.4 draft / not for publication
+### A founding design philosophy — v0.5 draft / not for publication
 
 ---
 
@@ -87,8 +87,8 @@ A subsistence farmer in the Congo basin and a senator in Washington carry identi
 **3. No central authority.**
 No organisation owns this. No server that can be switched off. No company that can be acquired or pressured. The protocol must be built on open, federated, or distributed infrastructure such that its suppression would require suppressing the internet itself.
 
-**4. Multilingual by default.**
-A question posed in Swahili is as native to this layer as one posed in English. Automated translation, reviewed for cultural accuracy, is not a feature — it is a founding requirement. A global commons that is functionally English-only is not a global commons.
+**4. Multilingual by default, at every tier.**
+A question posed in Swahili is as native to this layer as one posed in English — from the local tier upward. Machine translation is available throughout; at the global tier, translation is additionally reviewed by human editors to ensure neutral framing is preserved across languages. A global commons that is functionally English-only is not a global commons.
 
 **5. Questions, not answers.**
 This layer does not advocate. It does not campaign. It surfaces questions that have demonstrated genuine cross-cultural relevance and records the human response to them. The curation of questions is a governance challenge addressed below.
@@ -111,7 +111,7 @@ The response is a *filter pyramid* — a structured elevation process in which q
 
 **Regional tier:** A question rises only when it has demonstrated traction across multiple local communities that do not share language, culture, or obvious common interest. Cross-cultural resonance — not popularity, not trending — is the filter.
 
-**Global tier:** A question reaches the global signal layer only when it has demonstrated relevance across regional groupings representing genuine geographic and cultural diversity. At this tier, questions are translated into all major languages, presented with neutral framing reviewed by human editors and AI-assisted bias detection, and opened to verified global participation.
+**Global tier:** A question reaches the global signal layer only when it has demonstrated relevance across regional groupings representing genuine geographic and cultural diversity. At this tier, neutral framing is reviewed by human editors with AI-assisted bias detection, and the question is opened to verified global participation.
 
 This pyramid means the global layer is never crowded. It surfaces only what has already proven itself genuinely cross-cultural — not merely amplified by a single motivated community.
 
@@ -185,6 +185,7 @@ This document is a seed, not a blueprint. The questions that must be answered be
 - What is the relationship between this layer and existing institutions — international law, civil society, investigative journalism?
 - How is infrastructure funded without compromising the independence of the signal?
 - What does the interconnection map require in terms of data sourcing, currency, and editorial governance?
+- How does the protocol handle questions where the available information environment is itself compromised by institutional or commercial interests — and how is the integrity of evidence accessible to participants protected over time?
 
 These are offered not as problems to be solved by any single founder, but as design challenges for the collaborative effort this project requires.
 
@@ -204,7 +205,7 @@ If you want to contribute, open an issue in this repository or propose a revisio
 
 ---
 
-*Version 0.4 — working draft — not for publication*
+*Version 0.5 — working draft — not for publication*
 *No author. No organisation.*
 *Released under Creative Commons Attribution-NonCommercial-ShareAlike 4.0*
 *This document is in the public domain of ideas.*
