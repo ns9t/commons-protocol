@@ -26,6 +26,8 @@ It is not code. It is not an organisation. It is a seed.
 
 **Cite or share** this document freely under the terms of the licence below.
 
+To contact the stewardship: commonsprotocol@proton.me
+
 ---
 
 ## What not to do
