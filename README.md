@@ -1,4 +1,4 @@
-# A Commons Layer for Earth
+# A Commons Protocol
 
 A founding design philosophy for a globally distributed, politically neutral consensus protocol — infrastructure for making humanity's expressed conscience visible, verifiable, and permanent.
 
@@ -8,7 +8,7 @@ This is a working document, not a finished product. It is versioned, open to imp
 
 ## What this is
 
-This repository is the canonical home of the founding document for the Commons Layer project. It contains the design philosophy, core principles, and open questions that any implementation of this idea must engage with.
+This repository is the canonical home of the founding document for the Commons Protocol project. It contains the design philosophy, core principles, and open questions that any implementation of this idea must engage with.
 
 It is not code. It is not an organisation. It is a seed.
 
