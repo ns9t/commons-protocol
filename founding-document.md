@@ -1,5 +1,5 @@
 # Global Commons Consensus Protocol
-### A founding design philosophy — v0.6 draft / not for publication
+### A founding design philosophy — v0.7 draft / not for publication
 
 ---
 
@@ -28,9 +28,9 @@ Immune responses are distributed — no central command, no single leader, no sh
 
 What appears to be a proliferation of separate concerns — climate disruption, illegal resource extraction, displacement of indigenous peoples, suppression of civil liberties, concentration of institutional power — is better understood as a single underlying dynamic: the systematic treatment of shared commons as extractable resources for private or state benefit, at the expense of the whole.
 
-This reframing is load-bearing for the Commons Layer. It means the project does not need to adjudicate between environmental and humanitarian concerns, or prioritise one category of justice over another. The separation is artificial — a product of how existing institutions are organised, not how the problems actually relate to each other. Sand extraction in Southeast Asian rivers, deforestation in the Amazon basin, contamination of water sources in mining regions, and the displacement of civilian populations in conflict zones are not different issues requiring different platforms. They are different expressions of the same pathology, connected by threads of cause and consequence that cross every border on the map.
+This reframing is load-bearing for the Commons Protocol. It means the project does not need to adjudicate between environmental and humanitarian concerns, or prioritise one category of justice over another. The separation is artificial — a product of how existing institutions are organised, not how the problems actually relate to each other. Sand extraction in Southeast Asian rivers, deforestation in the Amazon basin, contamination of water sources in mining regions, and the displacement of civilian populations in conflict zones are not different issues requiring different platforms. They are different expressions of the same pathology, connected by threads of cause and consequence that cross every border on the map.
 
-Making those connections *visible* — not as argument, but as demonstrable, queryable, geographic fact — is one of the most consequential things the Commons Layer can do.
+Making those connections *visible* — not as argument, but as demonstrable, queryable, geographic fact — is one of the most consequential things the Commons Protocol can do.
 
 ---
 
@@ -38,19 +38,19 @@ Making those connections *visible* — not as argument, but as demonstrable, que
 
 Two biological models inform the design of this project.
 
-The first is the immune system: distributed, non-hierarchical, responsive to a common signal rather than a central command. The Commons Layer is designed to function as infrastructure for humanity's already-existing immune response — not to lead it, not to organise it, but to make its scale and coherence *legible* for the first time.
+The first is the immune system: distributed, non-hierarchical, responsive to a common signal rather than a central command. The Commons Protocol is designed to function as infrastructure for humanity's already-existing immune response — not to lead it, not to organise it, but to make its scale and coherence *legible* for the first time.
 
 The second is ATP — adenosine triphosphate — the universal energy currency of all living cells.²
 
 ATP is not accumulated. It is not owned. It flows to where it is needed, is consumed in use, and is continuously regenerated. No cell hoards it. No organ outranks another in its right to receive it. The equitable, continuous, flow-oriented distribution of ATP is precisely why living systems function: interrupt it, concentrate it, or commodify it, and the organism sickens.
 
-Human economies, information systems, and governance structures have violated this principle for most of recorded history — concentrating energy, wealth, and voice in ways that any biologist would recognise as pathology. The Commons Layer is designed on the ATP principle: distributed, non-accumulative, use-oriented, and equitable by default. Participation generates no permanent advantage. Contribution is consumed in the act of contributing. The system's health is the health of its whole.
+Human economies, information systems, and governance structures have violated this principle for most of recorded history — concentrating energy, wealth, and voice in ways that any biologist would recognise as pathology. The Commons Protocol is designed on the ATP principle: distributed, non-accumulative, use-oriented, and equitable by default. Participation generates no permanent advantage. Contribution is consumed in the act of contributing. The system's health is the health of its whole.
 
 ---
 
 ## What this is
 
-A Commons Layer is a protocol, not a platform. It is a way of surfacing, verifying, and permanently recording what a genuinely representative cross-section of humanity actually thinks about the questions that most affect its shared future.
+The Commons Protocol is a protocol, not a platform. It is a way of surfacing, verifying, and permanently recording what a genuinely representative cross-section of humanity actually thinks about the questions that most affect its shared future.
 
 Its output is not posts, feeds, or follower counts. Its output is a single, legible signal: *on this question, at this time, this is what a verifiable and representative portion of humanity thinks.*
 
@@ -64,7 +64,7 @@ This is not a small thing. Legitimacy is the only currency that power ultimately
 
 It is not a social network. There is no feed, no follower count, no engagement metric, no algorithmic amplification.
 
-It is not a petition platform. Petitions ask power to act. This layer records whether power is acting in accordance with the expressed will of those it claims to represent — the record exists regardless of whether power listens.
+It is not a petition platform. Petitions ask power to act. The Commons Protocol records whether power is acting in accordance with the expressed will of those it claims to represent — the record exists regardless of whether power listens.
 
 It is not a news platform. It does not produce content. It produces signal.
 
@@ -97,13 +97,13 @@ This layer does not advocate. It does not campaign. It surfaces questions that h
 Every design decision — how questions are selected, how participants are verified, how results are weighted — is published, versioned, and open to critique and improvement. No black boxes. No proprietary algorithms. No unexplained outputs.
 
 **7. Politically neutral by design, not by aspiration.**
-The neutrality of this layer is structural. It does not take positions. It records them. The distinction is absolute.
+The neutrality of this protocol is structural. It does not take positions. It records them. The distinction is absolute.
 
 ---
 
 ## The question problem: signal vs. noise
 
-The failure mode of open platforms is infinite noise. Any system that allows anyone to raise any question at any time produces cacophony rather than consensus. The Commons Layer must be architecturally immune to this dynamic.
+The failure mode of open platforms is infinite noise. Any system that allows anyone to raise any question at any time produces cacophony rather than consensus. The Commons Protocol must be architecturally immune to this dynamic.
 
 The response is a *filter pyramid* — a structured elevation process in which questions must demonstrate genuine cross-cultural resonance before reaching the global signal layer.
 
@@ -133,13 +133,13 @@ Attached to this question is an open evidence record — a structured, citable b
 
 Once responses have been collected from a verified, representative, cross-cultural sample above the defined threshold, the output becomes a permanent record: *"Of 4.2 million verified participants across 94 countries and 47 language groups, 78% considered this rate of clearance not acceptable. 12% acceptable with conditions. 6% acceptable. 4% had insufficient information to decide."* That record is cryptographically signed, timestamped, permanently archived, and publicly citable. It cannot be deleted or altered.
 
-This is what the Commons Layer produces. Not a campaign. Not a petition. A record.
+This is what the Commons Protocol produces. Not a campaign. Not a petition. A record.
 
 ---
 
 ## Visualising interconnection
 
-The Commons Layer should include, as a core interface element, an interactive planetary map that makes systemic connections visible — not as argument, but as queryable, geographic, living data.
+The Commons Protocol should include, as a core interface element, an interactive planetary map that makes systemic connections visible — not as argument, but as queryable, geographic, living data.
 
 When a question about river sand extraction is raised, the map renders the threads connecting that practice to coastal erosion, to freshwater ecosystem collapse, to displacement of riverine communities, to downstream food security. When a question about deforestation is raised, it renders connections to regional rainfall, to carbon sequestration, to indigenous land rights, to global temperature feedback.
 
@@ -159,15 +159,17 @@ What has been achieved is a *permanent, verifiable, cryptographically signed rec
 
 History shows that legitimacy, once visibly withdrawn at sufficient scale, costs power something — not always immediately, not always directly, but reliably over time. The apartheid system did not fall to a single pressure point. Colonial systems did not end through military defeat alone. The withdrawal of legitimacy — made visible, made legible, made undeniable — operates on a longer timescale than a news cycle but a shorter one than a generation.
 
-The Commons Layer is not a mechanism for immediate consequence. It is infrastructure for the slow, cumulative, permanent withdrawal of legitimacy from power that acts against the expressed conscience of humanity. That is a modest claim about any given moment. It is a civilisational claim about the direction of travel.
+The Commons Protocol is not a mechanism for immediate consequence. It is infrastructure for the slow, cumulative, permanent withdrawal of legitimacy from power that acts against the expressed conscience of humanity. That is a modest claim about any given moment. It is a civilisational claim about the direction of travel.
+
+It is also worth stating plainly that the protocol asks something of those who use it. Producing a meaningful signal requires participation — not passive consumption, but the active engagement of people who have made some effort to verify their presence and consider the questions put to them. This is by design. A signal produced by people who have done something to be here means more than one produced by people who have not. The value of the record is inseparable from the effort behind it. That is not a barrier — it is what makes the signal worth producing.
 
 ---
 
 ## Relationship to existing work
 
-The Commons Layer does not emerge from a vacuum. Several existing efforts address adjacent problems and represent natural points of relationship:
+The Commons Protocol does not emerge from a vacuum. Several existing efforts address adjacent problems and represent natural points of relationship:
 
-**Project Drawdown** (Paul Hawken et al.) provides the most rigorous existing framework for quantifying and prioritising climate solutions globally. The Commons Layer's treatment of environmental interconnection could be cross-referenced against Drawdown's methodology.
+**Project Drawdown** (Paul Hawken et al.) provides the most rigorous existing framework for quantifying and prioritising climate solutions globally. The Commons Protocol's treatment of environmental interconnection could be cross-referenced against Drawdown's methodology.
 
 **The Fediverse / ActivityPub protocol** provides existing federated infrastructure on which an implementation could be built — no single server, no single owner, interoperable across instances.
 
@@ -175,7 +177,7 @@ The Commons Layer does not emerge from a vacuum. Several existing efforts addres
 
 **Consul Project** (consulproject.org) is an open-source participatory democracy platform now used in dozens of cities globally. Its deliberation and participatory mechanisms are relevant prior art for the question elevation process.
 
-The Commons Layer is not in competition with any of these. It is a coordination layer that could make their outputs more legible to a broader humanity.
+The Commons Protocol is not in competition with any of these. It is a coordination layer that could make their outputs more legible to a broader humanity.
 
 ---
 
@@ -200,12 +202,12 @@ This document is a seed, not a blueprint. The questions that must be answered be
 - How are participants verified as human and unique without creating a centralised identity database?
 - What governance structure determines when a question has met the threshold for elevation?
 - How is the AI translation and framing layer governed to prevent bias at scale?
-- What is the relationship between this layer and existing institutions — international law, civil society, investigative journalism?
+- What is the relationship between this protocol and existing institutions — international law, civil society, investigative journalism?
 - How is infrastructure funded without compromising the independence of the signal?
 - What does the interconnection map require in terms of data sourcing, currency, and editorial governance?
 - How does the protocol handle questions where the available information environment is itself compromised by institutional or commercial interests — and how is the integrity of evidence accessible to participants protected over time?
 
-These are offered not as problems to be solved by any single founder, but as design challenges for the collaborative effort this project requires.
+These are offered not as problems to be solved by any single founder, but as design challenges for the collaborative effort this project requires. Partial answers to each are developed in the design documents in this repository.
 
 ---
 
@@ -223,7 +225,7 @@ If you want to contribute, open an issue in this repository or propose a revisio
 
 ---
 
-*Version 0.6 — working draft — not for publication*
+*Version 0.7 — working draft — not for publication*
 *No author. No organisation.*
 *Released under Creative Commons Attribution-NonCommercial-ShareAlike 4.0*
 *This document is in the public domain of ideas.*
