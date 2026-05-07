@@ -42,7 +42,7 @@ Do not attach this document or the project name to any commercial enterprise. Th
 
 The document is versioned. The version history in this repository is the authoritative record of how and why the document has evolved. Significant changes will be noted in commit messages. Proposed changes to the founding principles themselves require open discussion via Issues before incorporation.
 
-Current version: **0.3 — working draft — not for publication**
+Current version: **0.7 — working draft — not for publication**
 
 ---
 
