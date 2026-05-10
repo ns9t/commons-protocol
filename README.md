@@ -59,3 +59,11 @@ You are free to share and adapt this material for non-commercial purposes, provi
 This document has no author. It belongs to no organisation. Those who tend this repository do so as custodians of the principles, not as owners of the idea.
 
 If you believe this project is necessary and want to contribute to its stewardship, open an Issue and say so.
+
+---
+
+## A note on how this document was developed
+
+The founding document and design documents in this repository were developed through an extended collaborative process between the founding steward and Claude (Anthropic), used as a thinking partner and drafting tool. The vision, values, and core ideas originated with the founding steward. Claude contributed to their articulation, structure, and development through iterative conversation. The founding steward takes full responsibility for the content, framing, and design choices expressed here, including all interpretations and possible oversights.
+
+This process is itself consistent with the project's position on AI: a tool in service of human judgment and conscience, not a substitute for it.
