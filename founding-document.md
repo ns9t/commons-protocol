@@ -151,7 +151,7 @@ The most durable defence of commons abuse is the claim that effects are local, t
 
 ## Legitimacy and consequence
 
-The most honest question about this project is: *so what?*
+A fair question about this project is: *so what?*
 
 If forty million people signal that a rainforest must be protected, and the government with jurisdiction ignores it — what has been achieved?
 
