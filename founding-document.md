@@ -1,10 +1,5 @@
 # Global Commons Consensus Protocol
-### A founding design philosophy — v0.7 draft / not for publication
-
----
-
-> *"You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete."*
-> — Buckminster Fuller
+### A founding design philosophy — v0.8 draft / not for publication
 
 ---
 
@@ -14,9 +9,14 @@ Every major institution through which human consensus has historically been expr
 
 The information age promised to change this. It has not, for a simple reason: the new infrastructure of communication was built on the same old model — attention as commodity, engagement as profit, outrage as fuel. The result is not a global conversation. It is a global cacophony, structurally amplified for profit and deliberately exploited by those with interests in keeping conscience incoherent, in which the signal of genuine human concern drowns in engineered noise.⁴
 
-Humanity has never lacked conscience. What it has lacked is a way to make conscience *legible* — visible, verifiable, and impossible to suppress — at the scale the problems now demand.
+Humanity has never lacked conscience. What it has lacked is a way to make conscience *legible* at the scale the problems now demand. This means a signal that is visible, verifiable, and impossible to suppress.
 
 We do not need another platform. We need something different in kind: a layer beneath the noise, designed not to capture attention but to *clarify it*.
+
+---
+
+> *"You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete."*
+> — Buckminster Fuller
 
 ---
 
@@ -88,13 +88,13 @@ A subsistence farmer in the Congo basin and a senator in Washington carry identi
 No organisation owns this. No server that can be switched off. No company that can be acquired or pressured. The protocol must be built on open, federated, or distributed infrastructure such that its suppression would require suppressing the internet itself.
 
 **4. Multilingual by default, at every tier.**
-A question posed in Swahili is as native to this layer as one posed in English — from the local tier upward. Machine translation is available throughout; at the global tier, translation is additionally reviewed by human editors to ensure neutral framing is preserved across languages. A global commons that is functionally English-only is not a global commons.
+A question posed in Swahili is as native to this protocol as one posed in English — from the local tier upward. Machine translation is available throughout; at the global tier, translation is additionally reviewed by human editors to ensure neutral framing is preserved across languages. A global commons that is functionally English-only is not a global commons.
 
 **5. Questions, not answers.**
-This layer does not advocate. It does not campaign. It surfaces questions that have demonstrated genuine cross-cultural relevance and records the human response to them. The curation of questions is a governance challenge addressed below.
+This protocol does not advocate. It does not campaign. It surfaces questions that have demonstrated genuine cross-cultural relevance and records the human response to them. The curation of questions is a governance challenge addressed below.
 
 **6. Transparent methodology, open to challenge.**
-Every design decision — how questions are selected, how participants are verified, how results are weighted — is published, versioned, and open to critique and improvement. No black boxes. No proprietary algorithms. No unexplained outputs.
+Every design decision — how questions are selected, how participants are verified, how results are aggregated and presented — is published, versioned, and open to critique and improvement. No black boxes. No proprietary algorithms. No unexplained outputs.
 
 **7. Politically neutral by design, not by aspiration.**
 The neutrality of this protocol is structural. It does not take positions. It records them. The distinction is absolute.
@@ -225,7 +225,7 @@ If you want to contribute, open an issue in this repository or propose a revisio
 
 ---
 
-*Version 0.7 — working draft — not for publication*
+*Version 0.8 — working draft — not for publication*
 *No author. No organisation.*
 *Released under Creative Commons Attribution-NonCommercial-ShareAlike 4.0*
 *This document is in the public domain of ideas.*
