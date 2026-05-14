@@ -159,9 +159,11 @@ What has been achieved is a *permanent, verifiable, cryptographically signed rec
 
 History shows that legitimacy, once visibly withdrawn at sufficient scale, costs power something — not always immediately, not always directly, but reliably over time. The apartheid system did not fall to a single pressure point. Colonial systems did not end through military defeat alone. The withdrawal of legitimacy — made visible, made legible, made undeniable — operates on a longer timescale than a news cycle but a shorter one than a generation.
 
-The Commons Protocol is not a mechanism for immediate consequence. It is infrastructure for the slow, cumulative, permanent withdrawal of legitimacy from power that acts against the expressed conscience of humanity. That is a modest claim about any given moment. It is a civilisational claim about the direction of travel.
+The Commons Protocol is not a mechanism for immediate consequence. It is infrastructure for the slow, cumulative, permanent withdrawal of legitimacy from power that acts against the expressed conscience of humanity. That is a measured claim about any given moment. It is a civilisational claim about the direction of travel.
 
-It is also worth stating plainly that the protocol asks something of those who use it. Producing a meaningful signal requires participation — not passive consumption, but the active engagement of people who have made some effort to verify their presence and consider the questions put to them. This is by design. A signal produced by people who have done something to be here means more than one produced by people who have not. The value of the record is inseparable from the effort behind it. That is not a barrier — it is what makes the signal worth producing.
+The protocol is designed so that the barrier to entry is as low as it can be while still producing a meaningful signal. Reading requires nothing. Participation requires only the minimum necessary to establish that a voice is genuine and distinct.
+
+It is also worth stating plainly however, that the protocol does ask something of those who use it. Producing a meaningful signal requires participation — not passive consumption, but the active engagement of people who have made some effort to verify their presence and consider the questions put to them. This is by design. A signal produced by people who have done something to be here means more than one produced by people who have not. The value of the record is inseparable from the effort behind it. That is not a barrier — it is what makes the signal worth producing.
 
 ---
 
