@@ -7,7 +7,7 @@
 
 Every major institution through which human consensus has historically been expressed — governments, media, religious bodies, international organisations — was built in an era of scarcity: scarce communication, scarce literacy, scarce bandwidth. These institutions concentrated the power to define what counted as legitimate concern, who got to speak, and whose voice carried weight. That concentration of definitional power is the root of most of what is now broken in our global society.
 
-The information age promised to change this. It has not, for a simple reason: the new infrastructure of communication was built on the same old model — attention as commodity, engagement as profit, outrage as fuel. The result is not a global conversation. It is a global cacophony, structurally amplified for profit and deliberately exploited by those with interests in keeping conscience incoherent, in which the signal of genuine human concern drowns in engineered noise.⁴
+The information age promised to change this. It has not, for a simple reason: the new infrastructure of communication was built on the same old model — attention as commodity, engagement as profit, outrage as fuel. The result is not a global conversation. It is a global cacophony, structurally amplified for profit and deliberately exploited by those with interests in keeping conscience incoherent, in which the signal of genuine human concern drowns in engineered noise.¹
 
 Humanity has never lacked conscience. What it has lacked is a way to make conscience *legible* at the scale the problems now demand. This means a signal that is visible, verifiable, and impossible to suppress.
 
@@ -22,7 +22,7 @@ We do not need another platform. We need something different in kind: a layer be
 
 ## One Movement
 
-Environmental protection, human rights, and social justice are not separate causes with overlapping interests. They are a single phenomenon which can be seen as humanity's immune response to a systemic threat.¹
+Environmental protection, human rights, and social justice are not separate causes with overlapping interests. They are a single phenomenon which can be seen as humanity's immune response to a systemic threat.²
 
 Immune responses are distributed — no central command, no single leader, no shared manifesto. They are triggered by contact with a common pathogen, not by ideology. They are proportionate to threat. And in healthy organisms they are, ultimately, effective — not because any single cell defeats the pathogen, but because the collective response reaches a threshold at which the pathogen can no longer replicate faster than it is contained.
 
@@ -40,7 +40,7 @@ Two biological models inform the design of this project.
 
 The first is the immune system: distributed, non-hierarchical, responsive to a common signal rather than a central command. The Commons Protocol is designed to function as infrastructure for humanity's already-existing immune response — not to lead it, not to organise it, but to make its scale and coherence *legible* for the first time.
 
-The second is ATP — adenosine triphosphate — the universal energy currency of all living cells.²
+The second is ATP — adenosine triphosphate — the universal energy currency of all living cells.³
 
 ATP is not accumulated. It is not owned. It flows to where it is needed, is consumed in use, and is continuously regenerated. No cell hoards it. No organ outranks another in its right to receive it. The equitable, continuous, flow-oriented distribution of ATP is precisely why living systems function: interrupt it, concentrate it, or commodify it, and the organism sickens.
 
@@ -107,7 +107,7 @@ The failure mode of open platforms is infinite noise. Any system that allows any
 
 The response is a *filter pyramid* — a structured elevation process in which questions must demonstrate genuine cross-cultural resonance before reaching the global signal layer.
 
-**Local tier:** Any verified participant can raise a concern within a defined geographic or thematic community of approximately 150 members — the scale at which humans maintain genuine social knowledge of one another.³ Questions live and develop here. Most will stay here, and that is correct.
+**Local tier:** Any verified participant can raise a concern within a defined geographic or thematic community of approximately 150 members — the scale at which humans maintain genuine social knowledge of one another.⁴ Questions live and develop here. Most will stay here, and that is correct.
 
 **Regional tier:** A question rises only when it has demonstrated traction across multiple local communities that do not share language, culture, or obvious common interest. Cross-cultural resonance — not popularity, not trending — is the filter.
 
@@ -234,10 +234,11 @@ If you want to contribute, open an issue in this repository or propose a revisio
 
 ### Footnotes
 
-¹ Paul Hawken, *Blessed Unrest: How the Largest Movement in the World Came into Being and Why No One Saw It Coming* (Viking, 2007). Hawken catalogued over one million organisations working on environmental and social justice concerns and concluded they constituted a single, distributed, leaderless global movement — the largest in human history.
+¹ The structural incentives driving this dynamic are documented in Shoshana Zuboff's *The Age of Surveillance Capitalism* (2019) and Tim Wu's *The Attention Merchants* (2016). Internal evidence that platform designers knowingly maintained engagement algorithms amplifying divisive content was provided by whistleblower Frances Haugen in the Facebook Papers (2021).
 
-² The ATP model as a framework for human economic and social design is developed by evolutionary biologist Dr Elisabet Sahtouris in *EarthDance: Living Systems in Evolution* (iUniverse, 2000) and related works.
+² Paul Hawken, *Blessed Unrest: How the Largest Movement in the World Came into Being and Why No One Saw It Coming* (Viking, 2007). Hawken catalogued over one million organisations working on environmental and social justice concerns and concluded they constituted a single, distributed, leaderless global movement — the largest in human history.
 
-³ Robin Dunbar, *Grooming, Gossip, and the Evolution of Language* (Harvard University Press, 1996). Dunbar's research suggests a cognitive limit of approximately 150 for stable social groups in which members maintain genuine knowledge of one another — a figure that holds across hunter-gatherer societies, military units, and corporate organisations.
+³ The ATP model as a framework for human economic and social design is developed by evolutionary biologist Dr Elisabet Sahtouris in *EarthDance: Living Systems in Evolution* (iUniverse, 2000) and related works.
 
-⁴ The structural incentives driving this dynamic are documented in Shoshana Zuboff's *The Age of Surveillance Capitalism* (2019) and Tim Wu's *The Attention Merchants* (2016). Internal evidence that platform designers knowingly maintained engagement algorithms amplifying divisive content was provided by whistleblower Frances Haugen in the Facebook Papers (2021).
+⁴ Robin Dunbar, *Grooming, Gossip, and the Evolution of Language* (Harvard University Press, 1996). Dunbar's research suggests a cognitive limit of approximately 150 for stable social groups in which members maintain genuine knowledge of one another — a figure that holds across hunter-gatherer societies, military units, and corporate organisations.
+
