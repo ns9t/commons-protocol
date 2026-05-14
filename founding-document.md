@@ -163,7 +163,7 @@ The Commons Protocol is not a mechanism for immediate consequence. It is infrast
 
 The protocol is designed so that the barrier to entry is as low as it can be while still producing a meaningful signal. Reading requires nothing. Participation requires only the minimum necessary to establish that a voice is genuine and distinct.
 
-It is also worth stating plainly however, that the protocol does ask something of those who use it. Producing a meaningful signal requires participation — not passive consumption, but the active engagement of people who have made some effort to verify their presence and consider the questions put to them. This is by design. A signal produced by people who have done something to be here means more than one produced by people who have not. The value of the record is inseparable from the effort behind it. That is not a barrier — it is what makes the signal worth producing.
+It is also worth stating plainly that the protocol does ask something of those who use it. Producing a meaningful signal requires participation — not passive consumption, but the active engagement of people who have made some effort to verify their presence and consider the questions put to them. This is by design. A signal produced by people who have done something to be here means more than one produced by people who have not. The value of the record is inseparable from the effort behind it. That is not a barrier — it is what makes the signal worth producing.
 
 ---
 
