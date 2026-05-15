@@ -1,5 +1,5 @@
 # Commons Protocol — Governance Sketch
-### Design document v0.1 / internal / not for publication
+### Design document v0.2 / internal / not for publication
 
 ---
 
@@ -78,27 +78,7 @@ If the framing review and random panel review both clear, the question enters th
 
 ## Participant verification — the identity problem
 
-The entire mechanism above depends on verified human participants. This is the hardest problem in the design, and this document does not claim to solve it — it identifies the constraints any solution must satisfy and sketches candidate approaches.
-
-**The constraints:**
-
-A verification system must confirm that each participant is a unique human being without:
-- Creating a centralised database of personal identity information that can be hacked, sold, or subpoenaed
-- Requiring government-issued identification, which excludes the undocumented, the stateless, and those in repressive regimes where disclosure of identity is dangerous
-- Relying on biometric data, which raises severe and well-founded civil liberties concerns
-- Being so burdensome that it excludes the populations most affected by the issues the protocol is designed to surface
-
-**Candidate approaches:**
-
-*Social graph vouching:* New participants are vouched for by existing verified participants, up to a defined limit per voucher. This is the model used by Keybase and by some Mastodon instances. It scales organically, requires no central database, and creates accountability within communities. Its weakness is that it can bootstrap closed communities if early adopters vouch only within their existing networks.
-
-*Proof of personhood protocols:* Projects including Proof of Humanity, BrightID, and Idena have developed cryptographic approaches to establishing unique human identity without centralised identity data. Each has trade-offs in terms of accessibility and attack surface. These are worth examining as candidate infrastructure rather than reinventing the problem.
-
-*Progressive trust:* Participants begin with limited participation rights and earn fuller participation through demonstrated engagement over time. This raises the cost of Sybil attacks (creating multiple fake identities) without requiring upfront identity verification. Its weakness is that it disadvantages new participants who have the most urgent concerns.
-
-*Device-based verification with privacy preservation:* Using device fingerprinting combined with zero-knowledge proofs to confirm that a participation signal comes from a unique device without revealing what that device is or who owns it. Technically complex but preserves privacy most completely.
-
-The founding principle is that no single approach is sufficient. A layered approach — combining social vouching for early participants, progressive trust accumulation, and cryptographic uniqueness proofs — is likely more robust than any single mechanism. This layering is itself an open design question.
+The entire mechanism above depends on verified human participants. This is the hardest problem in the design, and this document does not claim to solve it — it identifies the constraints any solution must satisfy and sketches candidate approaches. See the verification sketch design document for a fuller treatment.
 
 ---
 
@@ -125,19 +105,19 @@ Beyond the temporal independence criterion described above, the following mechan
 
 **Pattern publication:** All engagement data — timing, geographic distribution, community composition — is published in anonymised form for each question in the elevation process. External researchers and journalists can audit the data for gaming patterns independently. Open data is a stronger anti-gaming mechanism than any internal process.
 
-**Cooling periods after gaming detection:** If coordinated gaming is confirmed for a specific question, that question is ineligible for re-submission for **180 days**. This removes the incentive to attempt gaming as a delay tactic.
+**Gaming detection triggers fast-track elevation:** If coordinated gaming is confirmed for a specific question, the question is fast-tracked for elevation review regardless of where it sits in the normal process. Confirmed suppression attempts are themselves evidence of a question's significance — the protocol treats them as such. The actors confirmed to have coordinated the gaming attempt are subject to account suspension as described in the tiered access specification. This inverts the incentive structure entirely: attempting to suppress a question through gaming accelerates rather than delays it.
 
 ---
 
 ## What this document does not resolve
 
-The following questions remain genuinely open and require input from people with relevant technical, legal, and governance expertise:
+The following questions remain open and require input from people with relevant technical, legal, and governance expertise:
 
 - **Jurisdiction:** The protocol operates across legal jurisdictions with conflicting laws on speech, privacy, and political organisation. Where is it legally domiciled, if anywhere? What is its legal exposure if a question in the global layer defames a specific entity or government?
 
-- **Infrastructure funding:** Who pays for the computational infrastructure required to run the verification and pattern-detection systems? The founding document establishes that the signal must be unmonetised, but the servers, the developers, and the reviewers cost something. A funding model that does not compromise signal independence is yet to be designed.
+- **Infrastructure funding:** Who pays for the computational infrastructure required to run the verification and pattern-detection systems? The founding document establishes that the signal must be unmonetised, but the servers, the developers, and the reviewers cost something. A funding model that does not compromise signal independence is developed provisionally in the token and funding layer design document.
 
-- **AI governance:** The framing review and pattern detection both involve AI systems. Those systems have biases, and those biases will shape what reaches the global layer. How are the AI systems governed, audited, and corrected over time?
+- **AI governance:** The framing review and pattern detection both involve AI systems. Those systems carry biases inherited from their training data — a translation model trained predominantly on English-language text will carry English-language framings into other languages; a bias-detection model trained on mainstream sources will treat challenges to institutional consensus as suspicious. How are the AI systems governed, audited, and corrected over time?
 
 - **Bootstrap problem:** The social vouching model requires existing verified participants to vouch for new ones. How does the network reach sufficient scale that the vouching graph is meaningfully diverse from the outset, rather than reflecting the demographics of whoever discovers the protocol first?
 
@@ -153,6 +133,6 @@ The goal is not to defend this design but to arrive, through open critique, at a
 
 ---
 
-*Version 0.1 — internal working document — not for publication*
+*Version 0.2 — internal working document — not for publication*
 *No author. No organisation.*
 *Released under Creative Commons Attribution-NonCommercial-ShareAlike 4.0*
