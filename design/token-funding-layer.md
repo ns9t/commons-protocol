@@ -1,5 +1,5 @@
 # Commons Protocol — Token and Funding Layer
-### Design document v0.1 / internal / not for publication
+### Design document v0.2 / internal / not for publication
 
 ---
 
@@ -20,7 +20,7 @@ This document applies that model precisely. The token described here — provisi
 - It flows to contributors who do verified work maintaining the protocol
 - It is consumed when used to participate in infrastructure governance decisions
 - It is non-accumulative — units not used within a defined period are redistributed to the contributor pool
-- It cannot be exchanged for anything outside the protocol ecosystem
+- It cannot be exchanged for anything outside the protocol ecosystem except through the defined exchange mechanism described below
 - It confers no ownership, no permanent advantage, and no claim on the protocol's outputs
 
 The token is energy, not wealth. This distinction is absolute and must be structural, not aspirational.
@@ -87,9 +87,39 @@ The token circulates internally among contributors. But infrastructure has real-
 
 **Grants and institutional funding:** Foundations, civil society organisations, and academic institutions that wish to support the protocol's infrastructure can do so through direct grants denominated in conventional currency. Grant funds are held in a transparent, auditable account governed by the stewardship group. Expenditure decisions above a defined threshold require an infrastructure governance vote. Grantors receive no tokens, no governance rights, and no influence over the signal layer.
 
-**Contributor token exchange:** Contributors who have earned tokens through verified work may, at defined intervals, exchange a portion of their tokens for conventional currency at a rate set by the infrastructure governance vote. This is the only point at which tokens convert to external value. The exchange rate is not market-determined — it is set by the community that earned the tokens, and it is capped to prevent any single contributor from extracting disproportionate value. This is the mechanism by which contributors are compensated in real terms for real work, without creating a speculative market.
+Natural early grant targets include foundations that fund commons infrastructure and open governance work — among them the Open Society Foundations, the Ford Foundation, the Shuttleworth Foundation, and the Omidyar Network. These organisations have established track records of funding exactly this kind of decentralised, non-commercial public infrastructure.
 
-**The exchange cap:** No contributor may exchange more than a defined maximum of tokens per quarter for conventional currency. This cap is set by infrastructure governance vote and is designed to ensure that compensation is meaningful — enough to cover the time cost of contribution — without being extractive. Contributors who accumulate tokens beyond the exchange cap simply have more governance participation capacity, not more wealth.
+**Contributor token exchange:** Contributors who have earned tokens through verified work may, at defined intervals, exchange a portion of their tokens for conventional currency. The exchange rate and process are described in detail below.
+
+---
+
+## The exchange rate — governance and constraints
+
+The exchange rate at which CEU converts to conventional currency is set by infrastructure governance vote among active token holders. This is not an unconstrained vote — several structural limits apply:
+
+**The funding constraint:** The exchange rate cannot exceed what available grant and donation funds can actually support. The total value of token exchanges in any quarter is capped at a defined percentage of the protocol's available conventional currency reserves. The rate is therefore bounded by reality — the community cannot vote to pay itself more than exists.
+
+**The cap constraint:** No contributor may exchange more than a defined maximum of tokens per quarter for conventional currency. This cap is set by infrastructure governance vote and is designed to ensure compensation is meaningful without being extractive. The cap applies equally to all contributors including stewards — no role receives preferential exchange terms.
+
+**The floor constraint:** The infrastructure governance vote may not set the exchange rate to zero while conventional currency reserves exist. Contributors who have done verified work have a right to exchange their tokens for something of real-world value. This protects early contributors from a governance capture scenario in which later participants vote to devalue founding contributions.
+
+**Public visibility:** The current exchange rate, the total tokens in circulation, the available conventional currency reserves, and all exchange transactions are publicly visible. Any anomalous pattern — a sudden rate spike before a large exchange, for example — is immediately detectable.
+
+The community setting its own exchange rate within these constraints is not a licence to pay itself whatever it wants. It is a mechanism for the community to make a collective decision about fair compensation within the bounds of what is financially sustainable and structurally honest.
+
+---
+
+## Early contributors and the developmental phase
+
+The protocol's developmental phase — the period during which the founding documents are being written, the design suite developed, and the first institutional relationships established — involves real work that has real value. It is honest to acknowledge this directly rather than expecting founding contributors to operate on pure altruism indefinitely.
+
+**The practical reality of early-stage commons infrastructure:** The history of projects like Linux, Wikipedia, and ActivityPub shows that early phases run on a combination of genuine belief in the project, reputational incentive, and the expectation of future compensation as the project achieves sustainability. This is not naive idealism — it is a demonstrated model. But it requires that the future compensation pathway is credible and clearly articulated, not left vague.
+
+**Retroactive CEU credit:** It is a design intention of this protocol that founding-period stewardship and development work is eligible for retroactive CEU credit once the token system is operational. The basis for this credit would be a documented record of contribution — time invested, work produced, decisions made — assessed against the same contribution rates that apply to ongoing work. This is not a promise, as it requires governance confirmation once a community exists to confirm it. It is a stated intention that founding contributors can reasonably plan around.
+
+**What early contributors can expect:** In the developmental phase, compensation is not available in conventional currency terms. What is available is: a founding relationship with the project that is documented and acknowledged; eligibility for retroactive CEU credit once the token system is operational; and the reputational value of having contributed to something significant at its inception. As grant funding is established and the exchange rate becomes meaningful, ongoing stewardship and contribution work becomes compensable in real-world terms. The timeline for this depends on the project's success in attracting institutional funding — it is not guaranteed, but it is the honest trajectory.
+
+**A note on altruism and incentive:** It would be dishonest to suggest that saving humanity from itself is sufficient motivation for skilled people whose rent is due. It is equally dishonest to promise compensation that doesn't yet exist. The developmental phase requires contributors who are motivated by a combination of genuine commitment to the project's aims and reasonable confidence in the future compensation pathway. The protocol is designed to make that pathway as credible and transparent as possible — not to rely on goodwill alone.
 
 ---
 
@@ -97,13 +127,13 @@ The token circulates internally among contributors. But infrastructure has real-
 
 The primary risk to the ATP model is that tokens, once they exist, find their way onto secondary markets where they trade speculatively. This would immediately corrupt the non-accumulative principle and create exactly the concentration dynamic the design is meant to prevent. The structural defences are:
 
-**No secondary market listings:** The token is not designed for or listed on any cryptocurrency exchange. This is not a promise — it is a technical constraint. The token standard used should not be compatible with standard exchange listing protocols. Custom token standards or non-transferable token implementations are the appropriate technical choice.
+**No secondary market listings:** The token is not designed for or listed on any cryptocurrency exchange. This is not a promise — it is a technical constraint. The token standard used should not be compatible with standard exchange listing protocols. Soul-bound token implementations (non-transferable tokens bound to a single verified identity, as proposed by Vitalik Buterin et al. in 2022) are the most relevant existing technical approach.
 
 **Non-transferability between participants:** Tokens cannot be transferred between participant accounts. They can only be created through verified contribution and destroyed through governance participation or the 90-day redistribution cycle. A token cannot be sold, gifted, or inherited. It is personal to the contributor who earned it and expires if unused.
 
 **No founding allocation:** There is no pre-mine, no founder's allocation, no early investor pool. The people who design the token system receive tokens the same way everyone else does — by doing verified work. This removes the primary incentive for speculative accumulation at launch.
 
-**Open supply visibility:** The total supply of tokens in circulation at any time is publicly visible. Any anomalous accumulation — a single contributor holding a disproportionate share — is immediately detectable and triggers an automatic governance review.
+**Open supply visibility:** The total supply of tokens in circulation at any time is publicly visible. Any anomalous accumulation is immediately detectable and triggers an automatic governance review.
 
 ---
 
@@ -114,42 +144,40 @@ The signal layer — the consensus mechanism, the question elevation process, th
 - Holding tokens does not increase a participant's voting weight in the consensus signal
 - Holding tokens does not grant access to higher participation tiers — tier access is determined by verification status, not token holdings
 - The token cannot be used to promote, elevate, or suppress any question
-- The token cannot be used to influence framing review outcomes — framing reviewers are compensated in tokens for their work, but the compensation does not vary based on the outcome of their review
+- The token cannot be used to influence framing review outcomes
 
-The separation is enforced technically, not by policy. The two systems are architecturally distinct — different smart contracts or protocol layers, with no shared state between them.
+The separation is enforced technically, not by policy. The two systems are architecturally distinct with no shared state between them.
 
 ---
 
 ## Relationship to existing models
 
-**Gitcoin** is the closest existing model — a platform for funding open-source development through community grants, with a quadratic funding mechanism that weights contributions by number of contributors rather than amount. The Commons Protocol token layer shares Gitcoin's instinct that infrastructure should be funded by the community it serves, not by investors seeking returns. The critical difference is that Gitcoin's GTC token has traded speculatively on secondary markets, which the ATP constraint prohibits. The non-transferability and non-listability constraints described above are the structural responses to this known failure mode.
+**Gitcoin** is the closest existing model — a platform for funding open-source development through community grants. The Commons Protocol token layer shares Gitcoin's instinct that infrastructure should be funded by the community it serves. The critical difference is that Gitcoin's GTC token has traded speculatively on secondary markets, which the ATP constraint prohibits. The non-transferability and non-listability constraints described above are the structural responses to this known failure mode.
 
 **Faircoin** was an attempt to create a non-speculative, cooperative-governed currency. It achieved genuine community governance but ultimately could not prevent secondary market trading. The lesson: technical non-transferability is more reliable than community agreement not to trade.
 
-**SourceCred** developed an algorithm for measuring contribution to open-source projects and distributing rewards accordingly. Its grain token was designed for internal use but faced similar secondary market pressures. Relevant prior art for the contribution verification mechanism.
+**SourceCred** developed an algorithm for measuring contribution to open-source projects and distributing rewards accordingly. Relevant prior art for the contribution verification mechanism.
 
 ---
 
 ## What this document does not resolve
 
-**The token standard:** What technical implementation makes non-transferability and non-listability structurally enforceable rather than merely promised? Soul-bound tokens (SBTs), as proposed by Vitalik Buterin et al. in 2022, are the most relevant existing concept — non-transferable tokens bound to a single wallet identity. Their implementation for this use case requires technical input from blockchain developers familiar with SBT standards.
+**The soul-bound token standard:** What technical implementation makes non-transferability and non-listability structurally enforceable? Soul-bound tokens are the most relevant existing concept but their implementation for this use case requires technical input from blockchain developers.
 
-**The exchange rate mechanism:** Setting the token-to-currency exchange rate by governance vote creates a potential for the rate to be set in ways that serve active contributors at the expense of the protocol's long-term funding. What constraints on the exchange rate mechanism prevent this?
+**The grant governance problem:** Grantors often have conditions — reporting requirements, scope restrictions — that could subtly shape protocol development even without formal governance rights. How are grant conditions assessed for compatibility with the founding principles before acceptance?
 
-**The grant governance problem:** External grant funding is governed by the stewardship group with community oversight above defined thresholds. But grantors often have conditions — reporting requirements, scope restrictions, preferred outcomes — that could subtly shape protocol development even without formal governance rights. How are grant conditions assessed for compatibility with the founding principles before acceptance?
+**The contributor compensation equity problem:** Contributors in high-income and low-income countries earn the same tokens for the same work, but the real-world value of the exchange rate differs radically. A rate meaningful in one context may be negligible or unsustainably expensive in another. Geographic equity in compensation is an open design challenge.
 
-**The contributor compensation equity problem:** Contributors in high-income countries and contributors in low-income countries earn the same tokens for the same work — but the real-world value of the exchange rate is radically different for each. A rate that provides meaningful compensation in one context may be negligible in another, or conversely may make the exchange rate unsustainably expensive for the protocol. How is geographic equity in compensation addressed?
-
-**Legal classification:** Depending on jurisdiction, the token described here — even with non-transferability constraints — may be classified as a security or a form of compensation subject to tax and employment law. Legal review is required before any implementation. The contributor token exchange mechanism in particular requires careful legal structuring.
+**Legal classification:** Depending on jurisdiction, the token described here may be classified as a security or a form of compensation subject to tax and employment law. Legal review is required before any implementation.
 
 ---
 
 ## Invitation for critique
 
-This document is offered to collaborators with expertise in token economics, cooperative governance, open-source funding models, and blockchain technical architecture. The most useful responses are: identified failure modes in the non-accumulation mechanism, technical implementations of non-transferable tokens that have been tested at scale, existing cooperative or commons funding models that address the equity problem more elegantly, and legal structures that have successfully navigated the security classification question in comparable contexts.
+This document is offered to collaborators with expertise in token economics, cooperative governance, open-source funding models, and blockchain technical architecture. The most useful responses are: identified failure modes in the non-accumulation mechanism, technical implementations of non-transferable tokens tested at scale, cooperative funding models that address the equity problem more elegantly, and legal structures that have successfully navigated the security classification question in comparable contexts.
 
 ---
 
-*Version 0.1 — internal working document — not for publication*
+*Version 0.2 — internal working document — not for publication*
 *No author. No organisation.*
 *Released under Creative Commons Attribution-NonCommercial-ShareAlike 4.0*
