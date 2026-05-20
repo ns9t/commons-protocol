@@ -7,11 +7,11 @@
 
 Every major institution through which human consensus has historically been expressed — governments, media, religious bodies, international organisations — was built in an era of scarcity: scarce communication, scarce literacy, scarce bandwidth. These institutions concentrated the power to define what counted as legitimate concern, who got to speak, and whose voice carried weight. That concentration of definitional power is the root of most of what is now broken in our global society.
 
-The information age promised to change this. It has not, for a simple reason: the new infrastructure of communication was built on the same old model — attention as commodity, engagement as profit, outrage as fuel. The result is not a global conversation. It is a global cacophony, structurally amplified for profit and deliberately exploited by those with interests in keeping conscience incoherent, in which the signal of genuine human concern drowns in engineered noise.¹
+The information age promised to change this. It has not, for a simple reason: the new infrastructure of communication was built on the same old model — attention as commodity, engagement as profit, outrage as fuel. The result is not a global conversation. It is a global cacophony, structurally amplified for profit and exploited by those with interests in keeping conscience incoherent. The signal of genuine human concern drowns in engineered noise.¹
 
 Humanity has never lacked conscience. What it has lacked is a way to make conscience *legible* at the scale the problems now demand. This means a signal that is visible, verifiable, and impossible to suppress.
 
-We do not need another platform. We need something different in kind: a layer beneath the noise, designed not to capture attention but to *clarify it*.
+We do not need another platform. We need something different in kind: a layer beyond the noise, designed not to capture attention but to *clarify it*.
 
 ---
 
