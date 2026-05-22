@@ -1,5 +1,5 @@
 # Global Commons Consensus Protocol
-### A founding design philosophy — v0.8 draft / not for publication
+### A founding design philosophy — v0.9 draft / not for publication
 
 ---
 
@@ -203,7 +203,7 @@ This document is a seed, not a blueprint. The questions that must be answered be
 
 - How are participants verified as human and unique without creating a centralised identity database? See [`verification-sketch.md`](./design/verification-sketch.md)
 - What governance structure determines when a question has met the threshold for elevation? See [`governance-sketch.md`](./design/governance-sketch.md)
-- How is the AI translation and framing layer governed to prevent bias at scale? (See [`tiered-access-specification.md`](./design/tiered-access-specification.md)
+- How is the AI translation and framing layer governed to prevent bias at scale? See [`governance-sketch.md`](./design/governance-sketch.md)
 - What is the relationship between this protocol and existing institutions — international law, civil society, investigative journalism?
 - How is infrastructure funded without compromising the independence of the signal? See [`token-funding-layer.md`](./design/token-funding-layer.md)
 - What does the interconnection map require in terms of data sourcing, currency, and editorial governance? See [`interconnection-map-design.md`](./design/interconnection-map-design.md)
@@ -227,7 +227,7 @@ If you want to contribute, open an issue in this repository or propose a revisio
 
 ---
 
-*Version 0.8 — working draft — not for publication*
+*Version 0.9 — working draft — not for publication*
 *No author. No organisation.*
 *Released under Creative Commons Attribution-NonCommercial-ShareAlike 4.0*
 *This document is in the public domain of ideas.*
@@ -243,4 +243,3 @@ If you want to contribute, open an issue in this repository or propose a revisio
 ³ The ATP model as a framework for human economic and social design is developed by evolutionary biologist Dr Elisabet Sahtouris in *EarthDance: Living Systems in Evolution* (iUniverse, 2000) and related works.
 
 ⁴ Robin Dunbar, *Grooming, Gossip, and the Evolution of Language* (Harvard University Press, 1996). Dunbar's research suggests a cognitive limit of approximately 150 for stable social groups in which members maintain genuine knowledge of one another — a figure that holds across hunter-gatherer societies, military units, and corporate organisations.
-
