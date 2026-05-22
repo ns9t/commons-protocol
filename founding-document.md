@@ -201,13 +201,13 @@ This document is released under a Creative Commons Attribution-NonCommercial-Sha
 
 This document is a seed, not a blueprint. The questions that must be answered before any implementation begins:
 
-- How are participants verified as human and unique without creating a centralised identity database?
-- What governance structure determines when a question has met the threshold for elevation?
-- How is the AI translation and framing layer governed to prevent bias at scale?
+- How are participants verified as human and unique without creating a centralised identity database? See [`verification-sketch.md`](./design/verification-sketch.md)
+- What governance structure determines when a question has met the threshold for elevation? See [`governance-sketch.md`](./design/governance-sketch.md)
+- How is the AI translation and framing layer governed to prevent bias at scale? (See [`tiered-access-specification.md`](./design/tiered-access-specification.md)
 - What is the relationship between this protocol and existing institutions — international law, civil society, investigative journalism?
-- How is infrastructure funded without compromising the independence of the signal?
-- What does the interconnection map require in terms of data sourcing, currency, and editorial governance?
-- How does the protocol handle questions where the available information environment is itself compromised by institutional or commercial interests — and how is the integrity of evidence accessible to participants protected over time?
+- How is infrastructure funded without compromising the independence of the signal? See [`token-funding-layer.md`](./design/token-funding-layer.md)
+- What does the interconnection map require in terms of data sourcing, currency, and editorial governance? See [`interconnection-map-design.md`](./design/interconnection-map-design.md)
+- How does the protocol handle questions where the available information environment is itself compromised by institutional or commercial interests — and how is the integrity of evidence accessible to participants protected over time? See [`evidence-record-design.md`](./design/evidence-record-design.md)
 
 These are offered not as problems to be solved by any single founder, but as design challenges for the collaborative effort this project requires. Partial answers to each are developed in the design documents in this repository.
 
