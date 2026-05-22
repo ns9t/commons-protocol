@@ -6,7 +6,7 @@
 
 ## Status summary
 
-Repository public at github.com/ns9t/commons-protocol. Founding document at v0.9. Governance sketch at v0.2. Token funding layer at v0.2. Full design suite complete — seven design documents in /design folder. First external contacts active: Metagovernance Project orientation call attended, Slack being monitored. UN humanitarian coordinator / visiting professor reviewing protocol — detailed written response expected within two weeks. This is the first formal external critique by a domain expert and should be treated as a milestone. Stewardship email: commonsprotocol@proton.me.
+Repository public at github.com/ns9t/commons-protocol. Founding document at v0.9. Governance sketch at v0.2. Token funding layer at v0.2. Full design suite complete — seven design documents in /design folder. First external contacts active: Metagovernance Project orientation. UN humanitarian coordinator / visiting professor reviewing protocol — detailed written response expected within two weeks. Stewardship email: commonsprotocol@proton.me.
 
 ---
 
