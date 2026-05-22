@@ -1,12 +1,12 @@
 # Working Notes — Commons Protocol
 ### Internal only — not for publication
-### Updated end of session 6
+### Updated end of session 6 / founding document v0.9
 
 ---
 
 ## Status summary
 
-Repository public at github.com/ns9t/commons-protocol. Founding document at v0.8. Governance sketch at v0.2. Token funding layer at v0.2. Full design suite complete — seven design documents in /design folder. First external contacts active: Metagovernance Project orientation call attended, Slack being monitored. UN humanitarian coordinator / visiting professor reviewing protocol — detailed written response expected within two weeks. This is the first formal external critique by a domain expert and should be treated as a milestone. Stewardship email: commonsprotocol@proton.me.
+Repository public at github.com/ns9t/commons-protocol. Founding document at v0.9. Governance sketch at v0.2. Token funding layer at v0.2. Full design suite complete — seven design documents in /design folder. First external contacts active: Metagovernance Project orientation call attended, Slack being monitored. UN humanitarian coordinator / visiting professor reviewing protocol — detailed written response expected within two weeks. This is the first formal external critique by a domain expert and should be treated as a milestone. Stewardship email: commonsprotocol@proton.me.
 
 ---
 
@@ -102,7 +102,7 @@ Assessment process for grant condition compatibility needed before any grant acc
 v0.1 complete.
 
 **Flag 31 — The participation-quality tradeoff**
-Named in spec and founding document v0.8. Low barrier of entry paragraph added to legitimacy and consequence section.
+Named in spec and founding document v0.9. Low barrier of entry paragraph added to legitimacy and consequence section.
 
 **Flag 32 — Quality metric for Tier 3 to Tier 4 transition**
 Requires behavioural economist and community platform designer input.
@@ -140,7 +140,7 @@ Governance challenge to anticipate before launch.
 v0.1 complete.
 
 **Flag 41 — 2019 antecedent article**
-Pending: postscript to original article linking to repository. Timing: after first specialist engagement, before wider public launch. UN advisor response may constitute first specialist engagement — reassess timing when response received.
+Pending: postscript to original article linking to repository. Timing: reassess after UN advisor response received — may constitute first specialist engagement threshold.
 
 ---
 
@@ -158,9 +158,6 @@ First substantive response received — UN humanitarian coordinator / visiting p
 **Flag 45 — AI acknowledgment**
 Added to README. Complete.
 
-**Flag 46 — README version reference**
-Updated to v0.8. Complete. Closed.
-
 ---
 
 ## Active flags — accessible summary document
@@ -177,22 +174,24 @@ Proposed structure:
 
 Critical structural note: open with the subsistence farmer scenario. The farmer whose water source is running low, who goes to their community, finds the protocol, sees their issue on the map, and recognises they have a voice. Lead with the person, not the protocol.
 
+Second worked example: Palestine. Clearest current instance of the protocol's core legitimacy argument — a widely held global conscience position systematically unrepresented in the institutions that claim to speak for humanity. The UN Security Council veto structure is the most obvious suppression mechanism. A verified global signal on Palestinian civilian protection would be exactly the kind of permanent record that makes the distance between institutional power and expressed human conscience visible and undeniable. Useful because it is contested at the institutional level while being less contested at the level of ordinary human conscience globally — that distinction is the gap the protocol is designed to make legible. Together the farmer and Palestine examples bracket the full range: one intimate and local, one global and geopolitical.
+
 **Flag 48 — UN advisor feedback**
 Retired UN humanitarian coordinator and visiting professor reviewed the repository. Positive reception. Detailed written response expected within two weeks — first formal external critique by a domain expert. Treat as milestone.
 
-Three substantive questions raised that reveal blind spots for non-technical audiences:
+Three substantive questions raised:
 
 *"How is this governed, by who, how, where?"*
 Working analogy for accessible document: governed the way a language is governed — by everyone who uses it, with no single authority, evolving through collective use rather than central decree.
 
 *"Is there no control centre?"*
-Reframe needed: not "no control centre" but "the design makes capture of a control centre impossible — which is precisely the point, given that centralised systems are routinely captured by the interests they should be holding accountable."
+Reframe: not "no control centre" but "the design makes capture of a control centre impossible — which is precisely the point, given that centralised systems are routinely captured by the interests they should be holding accountable."
 
 *"In what way is this human?"*
-Answered by the subsistence farmer scenario. The founding document's legitimacy and consequence section uses language he would find professionally familiar — worth directing him there specifically.
+Answered by the subsistence farmer scenario. Founding document's legitimacy and consequence section uses language he would find professionally familiar — worth directing him there specifically.
 
 *On discoverability:*
-Answer given: as with any network — if it takes off, word gets around. Additionally: designed to be seeded into existing networks — civil society organisations, community health networks, humanitarian NGOs — rather than relying on organic discovery. His own network is exactly the kind through which the protocol would propagate.
+Designed to be seeded into existing networks — civil society organisations, community health networks, humanitarian NGOs. His own network is exactly the kind through which the protocol would propagate.
 
 ---
 
@@ -200,9 +199,9 @@ Answer given: as with any network — if it takes off, word gets around. Additio
 
 ```
 commons-protocol/
-├── founding-document.md (v0.8)
+├── founding-document.md (v0.9)
 ├── working-notes.md
-├── README.md (AI acknowledgment, stewardship contact, v0.8 reference)
+├── README.md (AI acknowledgment, stewardship contact, v0.9 reference)
 ├── LICENCE
 └── design/
     ├── governance-sketch.md (v0.2)
@@ -272,4 +271,4 @@ Resolved. No speculative token.
 Resolved. Compensation through stewardship CEU for verified ongoing custodial work. No founder's allocation.
 
 **Flag 46 — README version reference** (closed session 6)
-Updated to v0.8.
+Updated to v0.9.
