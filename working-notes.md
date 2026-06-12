@@ -1,12 +1,12 @@
 # Working Notes — Commons Protocol
 ### Internal only — not for publication
-### Updated session 7
+### Updated session 8 — Randolph Kent response received
 
 ---
 
 ## Status summary
 
-Repository public at github.com/ns9t/commons-protocol. Founding document at v0.9. Verification sketch at v0.2 (first specialist revision — Adam Stallard, BrightID founder). Governance sketch at v0.2. Token funding layer at v0.2. Full design suite in /design folder. Essay "Wiring the Organism" published on blog, Substack, and other platforms — no responses to date but forwarded to Randolph Kent (UN advisor). Call with Randolph expected within one to two weeks. Adam Stallard (BrightID founder) engaged via Metagovernance Slack — first substantive specialist critique received and incorporated. No responses from broader social media or email outreach. Stewardship email: commonsprotocol@proton.me.
+Repository public at github.com/ns9t/commons-protocol. Founding document at v0.9 — v1.0 revision pending (see Flag 50). Verification sketch at v0.2. Governance sketch at v0.2. Token funding layer at v0.2. Full design suite in /design folder. Essay "Wiring the Organism" published — no public responses but substantive engagement from Randolph Kent. Reply to Randolph sent. Adam Stallard (BrightID founder) engaged via Metagovernance Slack. Stewardship email: commonsprotocol@proton.me.
 
 ---
 
@@ -19,46 +19,58 @@ Hold for now.
 Hold.
 
 **Flag 4 — Naming / working title**
-"Global Commons Consensus Protocol" as full name, "Commons Protocol" as short form. Consistent throughout from v0.8. Project public-facing name still open. Deferred.
+"Global Commons Consensus Protocol" as full name, "Commons Protocol" as short form. Consistent throughout from v0.8. Deferred.
 
 **Flag 5 — Publication timing**
-Repository public. Essay published. First specialist critique (Adam Stallard) incorporated. Next threshold: Randolph Kent response incorporated, then consider wider public launch.
+Repository public. Essay published. First specialist critiques received (Adam Stallard, Randolph Kent). Next threshold: founding document v1.0 revision incorporating accumulated critique. Trigger: either Randolph's governance sketch response arrives, or four weeks elapse — whichever comes first.
+
+**Flag 50 — Founding document v1.0 revision items (new)**
+The following specific revisions are queued for the next full revision pass. Do not patch incrementally — do once, cleanly, as v1.0.
+
+*From Randolph Kent's annotations and email response:*
+- **"Species" language** — replace throughout. "Species" implies a unity that may erase internal difference and power differentials. Replace with something more explicitly plural and differentiated — "the broadest possible human collective," "humanity in its full diversity," or similar. Randolph's observation: "one could argue that species can become exclusionary — intentionally or not."
+- **Governance summary in founding document** — the founding document should not require a reader to go elsewhere to find the answer to its most fundamental question (who decides, how, by what mechanism). Add a short plain-language summary of the governance approach — three-stage elevation, random panel review, transparent methodology — so the founding document is self-contained for a non-technical reader.
+- **"Objective truth" clarification** — make explicit that the protocol does not claim to produce objective truth. It produces a record of expressed human conscience at a given moment, with all the perceptual and linguistic complexity that entails. This is the more honest and more defensible claim. Currently implied but not stated.
+- **Polylateralism** — incorporate Randolph Kent's term with attribution. "Distributed governance reflecting diverse constituencies with perceived common interests and possibly common values" is more precise and more politically literate than current language. Seek his permission to attribute before incorporating.
+- **Neutrality framing** — Randolph's reframe is more accurate: the protocol's purpose is not neutrality but freedom of expression and exchange of values. The word "neutrality" carries specific humanitarian sector baggage and should be reframed accordingly in the design principles and elsewhere.
+- **Internet control** — the no-central-authority principle needs to be stated more explicitly for non-technical audiences. Current language assumes the reader understands what federated infrastructure means. Add a plain-language sentence.
+
+*Previously flagged, held for same revision pass:*
+- Participation-quality tradeoff acknowledgement already in v0.9 — hold.
+- Multilingual consistency resolved in v0.5 — closed.
 
 ---
 
 ## Active flags — governance design
 
 **Flag 10 — Governance sketch status**
-v0.2 complete and uploaded. Awaiting specialist critique. Metagovernance Slack is active channel — monitor for relevant engagement.
+v0.2 complete. Randolph Kent invited to review and provide experience-grounded critique — direct link sent. Await his response. This is the most important pending specialist engagement for the governance layer.
 
 **Flag 11 — Temporal independence criterion**
 Publish methodology openly for external audit. Noted for implementation.
 
 **Flag 12 — Bootstrap problem**
-Partially addressed by BrightID Aura model in verification sketch v0.2 — deliberate seeding across diverse starting communities still required. Remains open.
+Partially addressed by BrightID Aura model. Deliberate seeding across diverse starting communities required at launch. Remains open.
 
 ---
 
 ## Active flags — verification design
 
 **Flag 13 — Verification sketch status**
-v0.2 complete — first specialist revision incorporating Adam Stallard (BrightID founder) critique. Key changes: behavioural inference removed as invalid pathway; BrightID Aura as primary recommended approach; participation history removed as uniqueness signal; skilled verifier cadre (1% model) incorporated for anomaly detection; social recovery as key recovery recommendation. Adam credited by name in version notes.
+v0.2 complete. Adam Stallard credited. Awaiting further response from Adam if he reviews v0.2.
 
 **Flag 14 — The safety paradox**
-Partially addressed in v0.2 — skilled verifier model allows in-person verification without video, which may help high-risk participants. Device-based ZKP research direction retained but de-emphasised. Remains a priority challenge.
+Partially addressed in v0.2. Remains priority challenge.
 
 **Flag 15 — Offline verification**
-Skilled verifier model in v0.2 addresses small-scale offline communities. Large-scale offline verification remains open.
-
-**Flag 16 — Key recovery**
-Resolved in v0.2 — social recovery via skilled verifier cadre is the recommended approach. Closed as design question; implementation details remain.
+Skilled verifier model addresses small-scale. Large-scale remains open.
 
 ---
 
 ## Active flags — evidence record design
 
 **Flag 17 — Evidence record design status**
-v0.1 complete. Hybrid model as working hypothesis. Awaiting specialist input.
+v0.1 complete. Hybrid model as working hypothesis. Awaiting specialist input. Randolph's comment on language and perception (Amazon example framing) reinforces urgency of this document — the framing review process needs to be described more accessibly in the founding document (see Flag 50).
 
 **Flag 18 — Approach A vs B**
 Do not resolve without specialist input.
@@ -67,45 +79,45 @@ Do not resolve without specialist input.
 Named cases documented. Political problem, not technical. First iteration operates within known limitations.
 
 **Flag 20 — First-mover problem**
-Open design challenge.
+Open.
 
 **Flag 21 — Language and cultural equivalence**
-Indigenous knowledge systems require specialist input.
+Indigenous knowledge systems require specialist input. Randolph's comments on language perception reinforce this flag.
 
 **Flag 22 — Retraction and correction problem**
 Open.
 
 **Flag 23 — Scalability of community classification**
-Incentive structures not yet designed.
+Open.
 
 ---
 
 ## Active flags — token and funding layer
 
 **Flag 24 — Token layer status**
-v0.2 complete and uploaded. Exchange rate has three explicit structural constraints. Early contributor section added. Grant targets named.
+v0.2 complete.
 
 **Flag 27 — Soul-bound token implementation**
-Technical implementation requires blockchain developer input.
+Requires blockchain developer input.
 
 **Flag 28 — Contributor compensation equity**
-Geographic equity in compensation is open design challenge.
+Open.
 
 **Flag 29 — Grant governance**
-Assessment process for grant condition compatibility needed before any grant accepted.
+Open.
 
 ---
 
 ## Active flags — tiered access
 
 **Flag 30 — Tiered access specification status**
-v0.1 complete. Note: Flag 32 (quality metric) now sharpened by Adam Stallard's critique — participation history as uniqueness signal removed from verification sketch, which has downstream implications for the Tier 3 to Tier 4 transition criteria. Review needed for consistency.
+v0.1 complete. Needs v0.2 for Flag 32.
 
 **Flag 31 — The participation-quality tradeoff**
 Named in spec and founding document v0.9.
 
 **Flag 32 — Quality metric for Tier 3 to Tier 4 transition**
-Sharpened by Adam Stallard critique: participation history cannot serve as uniqueness signal (gameable by automation). The tier transition criteria use participation history for access purposes only, not verification — this distinction must be made explicit in a v0.2 of the tiered access specification. Flag remains open pending that revision.
+Participation history as access criterion not uniqueness signal — distinction must be made explicit in v0.2. Open.
 
 **Flag 33 — Quorum question**
 Open.
@@ -121,10 +133,10 @@ Nik operating as founding steward informally. Formalisation needed as community 
 v0.1 complete.
 
 **Flag 36 — Project Drawdown relationship**
-Deferred until more specialist engagement established.
+Deferred.
 
 **Flag 37 — Algorithmic inference question**
-First iteration: sourced-from-literature only. Open research question.
+Open research question.
 
 **Flag 38 — Low-bandwidth accessibility**
 Open.
@@ -137,39 +149,52 @@ Open.
 ## Active flags — influences document
 
 **Flag 40 — Influences document status**
-v0.1 complete. Adam Stallard should be added as a contributor acknowledgement — not a foundational influence but a named specialist contributor. Consider a contributors section separate from the intellectual influences.
+v0.1 complete. Add contributors section for Adam Stallard. Consider whether Randolph Kent warrants acknowledgement as domain expert reviewer once his governance sketch response arrives.
 
 **Flag 41 — 2019 antecedent article**
-Pending. Reassess after Randolph Kent call.
+Pending. Reassess after founding document v1.0 revision.
 
 ---
 
 ## Active flags — outreach and circulation
 
 **Flag 42 — Metagovernance Project contact**
-Active. Adam Stallard engaged via Slack — first specialist critique received and incorporated into verification sketch v0.2. Reply sent acknowledging contribution and crediting by name. Continue monitoring Slack for further engagement. Email to hello@metagov.org unanswered to date.
+Active. Adam Stallard engaged. Email to hello@metagov.org unanswered. Continue monitoring Slack.
 
 **Flag 43 — Mastodon / social media**
-hachyderm.io application no response. Some activity on Metagovernance Slack. No meaningful responses on other platforms. Essay published with no responses to date. Social media seeding not producing results — consistent with earlier assessment that this project needs relational rather than broadcast approaches.
+No meaningful responses. Social media seeding not producing results — consistent with assessment that this project needs relational rather than broadcast approaches. Deprioritise until protocol has something more concrete to offer.
 
 **Flag 44 — Trusted circle and direct outreach**
-Randolph Kent (UN humanitarian coordinator) — essay forwarded, call expected within one to two weeks. David Bollier — essay sent, no response yet. No other substantive responses from broader circle.
+Randolph Kent — substantive written response received, reply sent, governance sketch review invited, introduction to Gareth Owen / Kate Hart (Sense-Making Project) requested. David Bollier — essay sent, no response.
 
 **Flag 45 — AI acknowledgment**
 Added to README. Complete.
 
 **Flag 49 — Adam Stallard / BrightID relationship**
-New. Adam Stallard engaged substantively via Metagovernance Slack. First specialist contributor. Reply sent, credited in verification sketch v0.2. Relationship worth nurturing — he is a natural technical collaborator and his continued engagement would be significant. If he reviews v0.2 and responds again, treat as an ongoing collaboration and consider whether to invite him more explicitly into the project.
+First specialist contributor. Relationship worth nurturing. If he reviews v0.2 and responds again, consider inviting more explicitly into the project.
 
 ---
 
-## Active flags — accessible summary document
+## Active flags — accessible summary document and new contacts
 
 **Flag 47 — Accessible summary document**
-The essay "Wiring the Organism" (published) and its PDF version partially fulfil this function for non-technical readers. However a more formal document remains needed for institutional and funding audiences — structured differently from an essay, more explicitly describing the design and current state. The essay is a front door; the formal summary is the meeting room. Produce after Randolph Kent call — his response will inform what such a document needs to address. Candidate title and structure as previously noted.
+Essay "Wiring the Organism" is the front door. Formal summary (the meeting room) still needed for institutional and funding audiences. Hold until v1.0 founding document revision complete — the summary should reflect the revised document.
 
-**Flag 48 — UN advisor / Randolph Kent**
-Essay forwarded. Call expected within one to two weeks. Randolph's background at humanitarianfutures.org and his Science-Humanitarian Dialogue work are directly relevant — he has spent decades on the gap between knowledge production and decision-making, which is a cousin problem to the Commons Protocol. Prepare specific questions before the call: what institutional contacts in humanitarian, governance, and academic circles might engage with this; whether any graduate students or early-career researchers in his network might be looking for a project of this kind; whether he sees any direct connection to the Science-Humanitarian Dialogue work.
+**Flag 48 — Randolph Kent engagement**
+Substantive written response received — detailed annotations on founding document plus email addressing five questions. Key contributions: "species" language critique, polylateralism framing, internet control concern, gardener metaphor challenge, neutrality reframe. Reply sent. Next: await governance sketch response and potential introduction to Gareth Owen / Kate Hart.
+
+**Flag 51 — Sense-Making Project / Gareth Owen and Kate Hart (new)**
+Introduction requested via Randolph. If introduction comes: their framing (structural redesign without restored human connection produces new forms of same pathology) is compatible with but distinct from the protocol's purpose. The protocol cannot substitute for human connection — it creates conditions in which connection becomes more legible at scale. Approach as potential advocates and bridge-builders to humanitarian networks, not as technical collaborators. Low-cost, low-pressure engagement if it materialises.
+
+**Flag 52 — Global Regeneration CoLab / grc.earth (new)**
+Suggested by external contact. Philosophically aligned — regenerative rather than sustainable framing, global community of changemakers, collaborative laboratory model. Appropriate for community seeding once protocol has something to use. Premature now. File for later: need 1 (technical builder) and need 2 (institutional credibility) before need 3 (community participants).
+
+**Flag 53 — Strategic orientation (new)**
+Navigation check-in documented separately. Three prioritised needs in order:
+1. Technical builder — one person who can implement federated infrastructure or cryptographic identity. Adam Stallard closest. Summer of Protocols and Nostr developer community still untried.
+2. Institutional credibility anchor — Randolph Kent is this or could become it. Gareth/Kate introduction extends it.
+3. Community participants — GRC and similar appropriate but premature. Seed into existing protocol, not design documents.
+Current focus: send Randolph reply, follow Summer of Protocols / Nostr thread for technical builder. Everything else holds.
 
 ---
 
@@ -177,16 +202,16 @@ Essay forwarded. Call expected within one to two weeks. Randolph's background at
 
 ```
 commons-protocol/
-├── founding-document.md (v0.9)
+├── founding-document.md (v0.9 — v1.0 revision pending)
 ├── working-notes.md
-├── README.md (AI acknowledgment, stewardship contact, v0.9 reference)
+├── README.md
 ├── LICENCE
 └── design/
     ├── governance-sketch.md (v0.2)
     ├── verification-sketch.md (v0.2)
     ├── evidence-record-design.md (v0.1)
     ├── token-funding-layer.md (v0.2)
-    ├── tiered-access-specification.md (v0.1) — needs v0.2 for Flag 32
+    ├── tiered-access-specification.md (v0.1 — v0.2 needed)
     ├── interconnection-map-design.md (v0.1)
     └── influences-prior-art.md (v0.1)
 ```
@@ -195,31 +220,35 @@ commons-protocol/
 
 ## Next phase priorities
 
-1. Upload verification sketch v0.2 to repository
-2. Randolph Kent call — prepare questions, incorporate response
-3. Tiered access specification v0.2 — clarify participation history as access criterion not uniqueness signal (Flag 32)
-4. Continue Metagovernance Slack engagement — nurture Adam Stallard relationship
-5. Antecedent article postscript — after Randolph call
-6. Formal accessible summary document — after Randolph call
-7. Influences document — add contributors section for Adam Stallard
-8. Institutional contacts (Drawdown, Consul Project, IFCN) — after more specialist engagement established
-9. Grant foundation approaches — after specialist validation established
+1. Send Randolph reply (done — awaiting governance sketch response)
+2. Founding document v1.0 revision — trigger: Randolph governance sketch response OR four weeks, whichever first
+3. Tiered access specification v0.2 — Flag 32 clarification
+4. Summer of Protocols / Nostr community — targeted approach for technical builder
+5. Influences document — add contributors section (Adam Stallard)
+6. Antecedent article postscript — after v1.0 revision
+7. Formal accessible summary document — after v1.0 revision
+8. Sense-Making Project introduction — if Randolph provides it
+9. Institutional contacts (Drawdown, Consul Project, IFCN) — after more specialist engagement
+10. Grant foundation approaches — after specialist validation established
 
 ---
 
 ## Institutional relationships
 
-- **Metagovernance Project** — active, Slack engagement ongoing
-- **Adam Stallard / BrightID** — first specialist contributor, relationship active
-- **Randolph Kent / UN humanitarian** — call pending, essay received
-- **David Bollier** — essay sent, no response yet
+- **Metagovernance Project** — active, Slack monitoring
+- **Adam Stallard / BrightID** — first specialist contributor, active
+- **Randolph Kent** — substantive domain expert engagement, governance sketch review invited
+- **David Bollier** — essay sent, no response
+- **Gareth Owen / Kate Hart (Sense-Making Project)** — introduction requested via Randolph, pending
+- **Global Regeneration CoLab** — filed for later (community seeding phase)
 - **Project Drawdown** — deferred
 - **IFCN fact-checking organisations** — deferred
 - **Consul Project** — deferred
-- **Fediverse / ActivityPub community** — pending Mastodon account
-- **Nostr developer community** — deferred
+- **Fediverse / ActivityPub community** — deferred pending Mastodon account
+- **Nostr developer community** — active target for technical builder
+- **Summer of Protocols** — active target for technical builder
 - **Global Forest Watch** — deferred
-- **Open Society Foundations / Ford Foundation / Shuttleworth Foundation / Omidyar Network** — grant targets, deferred
+- **Open Society / Ford / Shuttleworth / Omidyar** — grant targets, deferred
 
 ---
 
@@ -235,7 +264,7 @@ First iteration: geopolitical abuses, environmental destruction, resource extrac
 **Flag 6 — Stewardship identity** (closed session 5)
 **Flag 7 — Forking clarification** (closed session 2)
 **Flag 8 — Illustrative example** (closed v0.6)
-**Flag 16 — Key recovery** (closed v0.2 verification sketch) — social recovery via skilled verifier cadre.
+**Flag 16 — Key recovery** (closed v0.2 verification sketch)
 **Flag 25 — Speculative token layer** (closed session 4)
 **Flag 26 — Founder compensation** (closed session 4)
 **Flag 46 — README version reference** (closed session 6)
