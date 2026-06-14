@@ -268,3 +268,30 @@ First iteration: geopolitical abuses, environmental destruction, resource extrac
 **Flag 25 — Speculative token layer** (closed session 4)
 **Flag 26 — Founder compensation** (closed session 4)
 **Flag 46 — README version reference** (closed session 6)
+
+---
+
+## Active flags — design tensions (new section)
+
+**Flag 54 — Updraft as infrastructure funding: legitimate use case or spirit violation?**
+Adam Stallard (BrightID/Updraft founder) has suggested Updraft could fund Commons Protocol infrastructure without touching the signal layer. Analysis: does not violate founding document as written — signal integrity principle protects the signal layer, not the funding source. However sits in tension with the ATP model's spirit — Updraft's UPD token has speculative market exposure that the CEU model explicitly avoids.
+
+Working position: Updraft as provisional infrastructure funding while protocol establishes itself, with explicit intention of transitioning to CEU model as community develops. Not a permanent adoption of Updraft's economic model.
+
+Key unresolved question for Adam call: how does Updraft handle UPD token price collapse and infrastructure funding drying up? What is the resilience model? This is the stress test that distinguishes a structural solution from a fragile one.
+
+Flag for founding document v1.0: consider whether the ATP principle needs to be stated more explicitly as applying to the spirit of infrastructure funding as well as the letter of signal integrity. Currently the document protects the signal; it does not explicitly address what kind of funding source is consistent with the project's values.
+
+**Flag 55 — The Wikipedia governance / output tension**
+Wikipedia is cited in design documents as successful prior art for community governance mechanisms. The Capture of Truth essay and evidence record design document establish that Wikipedia's outputs in contested domains are demonstrably compromised by institutional and commercial power.
+
+The distinction drawn — borrowing governance mechanisms not epistemic outputs — is technically valid but has a genuine weakness: a governance mechanism that reliably produces compromised outputs in politically contested domains is not straightforwardly a success. The boundaries between mechanism and output are blurrier than the design documents imply.
+
+Working position: the Wikipedia citation remains valid as prior art for scale and longevity of community governance. The epistemic limitation is already named in the evidence record design document. But the founding steward's instinct — that a governance mechanism cannot be cleanly separated from the outputs it reliably produces — is legitimate and should not be dismissed. This tension should inform how carefully the Commons Protocol designs its own governance mechanisms to avoid the same capture dynamic Wikipedia exhibits.
+
+Do not use Wikipedia as a simple endorsement. Use it as a cautionary model as much as an exemplary one.
+
+**Flag 56 — Boundary enforcement: stated vs structural**
+A recurring concern across multiple design tensions: boundaries that are stated but not structurally enforced tend to erode over time. The founding document's value is precisely that it names non-negotiables. The ongoing design challenge — for Updraft as infrastructure funder, for Wikipedia as governance model, for any borrowed mechanism — is ensuring that what is being borrowed is structurally bounded from what is being protected, not merely promised to be bounded.
+
+This is not a new flag in substance — it underlies the signal/infrastructure separation, the token layer design, and the evidence record approach. But naming it as a general principle is worth doing explicitly: every time a pragmatic compromise is made, ask whether the boundary is structural or merely stated. If stated only, design the structural enforcement before adopting the compromise.
