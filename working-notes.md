@@ -295,3 +295,65 @@ Do not use Wikipedia as a simple endorsement. Use it as a cautionary model as mu
 A recurring concern across multiple design tensions: boundaries that are stated but not structurally enforced tend to erode over time. The founding document's value is precisely that it names non-negotiables. The ongoing design challenge — for Updraft as infrastructure funder, for Wikipedia as governance model, for any borrowed mechanism — is ensuring that what is being borrowed is structurally bounded from what is being protected, not merely promised to be bounded.
 
 This is not a new flag in substance — it underlies the signal/infrastructure separation, the token layer design, and the evidence record approach. But naming it as a general principle is worth doing explicitly: every time a pragmatic compromise is made, ask whether the boundary is structural or merely stated. If stated only, design the structural enforcement before adopting the compromise.
+
+**Flag 57 — Rights of Nature / Mar Menor precedent (new)**
+Article: "Reframe 1: Rights of Nature and the Many Faces of Guardianship" by Renilde Becqué, The Repatterning Collective, June 2026.
+
+Mar Menor lagoon (Spain) — first ecosystem in Europe to receive legal rights through citizen-led process: 600,000 signatures becoming law. Classified in the article as "Emergent Commons Guardianship" — collective civic recognition where authority derives from democratic participation at scale. This is the closest existing real-world precedent to what the Commons Protocol is designed to produce — not the mobilisation itself but the verified, scalable infrastructure for that mobilisation.
+
+Key insight from the article: the tension in Emergent Commons Guardianship is "whether civic identification can sustain itself as governance once the mobilisation moment has passed." The Commons Protocol is designed to address exactly this — making the signal producible continuously and verifiably rather than through expensive one-off mobilisation.
+
+The article's "creating vs recognising" distinction maps directly onto the Commons Protocol's founding claim: the protocol doesn't create humanity's immune response, it makes it legible. Recognition model, not creation model. Make explicit in founding document v1.0.
+
+The five guardian logics provide vocabulary for answering Randolph's "who decides, who determines legitimacy" question — the Commons Protocol operates in the Emergent Commons model. Worth using in accessible summary document.
+
+The kincentric / obligational model — law recognising pre-existing relationship rather than creating one — is philosophically closest to the biomimetic foundation. The immune system doesn't create the organism's relationship to its own health; it recognises and responds to threats to what already exists.
+
+UK Nature's Rights Bill (tabled June 2026) — embeds human rights within ecological limits rather than balancing them. Worth monitoring. A verified global signal that ecosystems have rights recognised by civic majorities would support legal innovations like this.
+
+**Actions from this flag:**
+- Add Mar Menor to founding document v1.0 legitimacy and consequence section alongside apartheid and colonial systems examples
+- Add sentence on recognition vs creation distinction to founding document v1.0
+- Add "who this is for" section to founding document v1.0 or accessible summary document (see Flag 58)
+- Flag Repatterning Collective / Renilde Becqué as future contact — not priority now
+
+**Flag 58 — "Who this is for" — audiences and institutional targets (new)**
+The founding document does not explicitly state who the Commons Protocol is for or which communities and organisations it is designed to serve and engage. This is a gap that becomes more visible as the project circulates beyond the immediate technical audience.
+
+Proposed additions for founding document v1.0 or accessible summary document:
+
+Primary audiences:
+- Civic society organisations working on commons governance, environmental rights, humanitarian accountability
+- Technical builders in federated infrastructure, cryptographic identity, decentralised governance
+- Academic researchers in digital governance, commons theory, humanitarian systems, anticipatory governance
+- Legal innovators working on Rights of Nature, ecosystem personhood, polylateral governance frameworks
+- Grant-making foundations funding public goods infrastructure
+
+Natural institutional relationships to develop (beyond those already flagged):
+- Rights of Nature movement organisations — Earth Law Center, Rights of Nature International Tribunal, Community Environmental Legal Defense Fund
+- The Repatterning Collective / Renilde Becqué — cross-field thinking on commons, more-than-human rights, civic mobilisation
+- Tribal and Indigenous governance networks working on obligational guardianship models
+- UK Nature's Rights Bill supporters and parliamentary contacts — once bill progresses
+- RadicalxChange — Glen Weyl's network bridging technical and political-philosophical
+- Dark Mountain Project — philosophical register close to the essay's voice, different audience from technical communities
+
+Note: do not pursue all of these simultaneously. Sequence by project need: technical builder first, institutional credibility second, community participants third. This list is for when those first two needs are met.
+
+**Flag 59 — Protocol Institute / Protocolized magazine (new)**
+Summer of Protocols evolved into the Protocol Institute — ongoing organisation with alumni from all three cohorts, Substack publication (Protocolized), Special Interest Groups, annual Protocol Symposium, active Discord.
+
+Email pitch sent to Protocolized — "Wiring the Organism" pitched for republication, collaboration ask included for technical builders in federated infrastructure and decentralised governance.
+
+Notable alumni: Evan Prodromou — co-created GNU Social, co-authored OStatus, co-chaired W3C Social Web Working Group, co-edited ActivityPub. Now Director of Open Technology at Open Earth Foundation. Direct approach worth considering if Protocolized pitch leads to Discord engagement.
+
+Contact: research@summerofprotocols.com
+Primary purpose: technical collaborator pipeline and essay audience reach.
+
+**Flag 60 — University of Reading / Nature-centric Catalyst team (new)**
+Team includes: Marzia Briel (lawyer, research focus: exploitative governance ecosystems, regulation, global inequity, science policy), Tom Oliver (Associate Pro-Vice-Chancellor, author of The Self Delusion, adviser to UK government and European Commission on systemic risk), Phil Tovey (former Head of Futures at Defra, systemic risk assessment).
+
+Email sent to Marzia Briel — founding document PDF attached, direct links to governance sketch and evidence record design included. Framed around three specific governance questions: who determines legitimacy; how evidence is protected from institutional capture; how a distributed system navigates conflicting legal jurisdictions without acquiring a capturable legal domicile.
+
+Primary purpose: governance and legal input to strengthen design documents. Secondary: potential connection to UK Nature's Rights Bill conversation and environmental policy networks.
+
+Await response before further action.
