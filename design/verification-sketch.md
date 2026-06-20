@@ -151,7 +151,7 @@ This approach is consistent with the no-central-authority principle and draws on
 
 ---
 
-## The Sybil problem stated honestly
+## The Sybil problem
 
 A Sybil attack is the creation of multiple fake identities to manipulate a system that weights participants equally. No verification architecture eliminates it entirely. The goal is making Sybil attacks sufficiently costly, detectable, and low-yield that they are economically and practically irrational.
 
