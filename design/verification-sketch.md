@@ -1,11 +1,13 @@
 # Commons Protocol — Verification Sketch
-### Design document v0.2 / internal / not for publication
+### Design document v0.3 / internal / not for publication
 
 ---
 
 ## Version notes
 
-v0.2 incorporates substantive critique from Adam Stallard, founder of BrightID, received via the Metagovernance Project community in June 2026. His comments are credited throughout and have materially improved the design. Specific changes from v0.1: BrightID Aura referenced as more relevant prior art than original BrightID verification model; behavioural characteristics approach flagged as incompatible with no-central-authority principle and de-emphasised accordingly; participation history as uniqueness signal identified as gameable and removed as a verification criterion; skilled verifier cadre model (Aura's 1% model) incorporated as a candidate approach to anomaly detection; social recovery added as the recommended key recovery mechanism.
+v0.3 incorporates a second round of feedback from Adam Stallard (BrightID/Updraft founder), adding detail on Aura's layered internal review structure — supervisor roles, peer evaluation within teams, and rapid de-authorisation — distinguishing this from the shallower, necessary-but-insufficient role of community-level oversight.
+
+v0.2 incorporated his first round of substantive critique. Specific changes from v0.1: BrightID Aura referenced as more relevant prior art than original BrightID verification model; behavioural characteristics approach flagged as incompatible with no-central-authority principle and de-emphasised accordingly; participation history as uniqueness signal identified as gameable and removed as a verification criterion; skilled verifier cadre model incorporated as a candidate approach to anomaly detection; social recovery added as key recovery recommendation.
 
 ---
 
@@ -55,7 +57,7 @@ New participants are vouched for by existing verified participants, up to a defi
 
 **BrightID Aura model:** Adam Stallard, founder of BrightID, notes that BrightID's newer Aura verification system is closer to this model than the original BrightID verification party approach. Aura uses a small cadre of skilled, motivated verifiers — approximately 1% of participants — who have genuine reputational and livelihood stakes in the accuracy of their verifications. A small team of skilled verifiers can verify an entire offline village. They have significant incentive not to inflate numbers or misrepresent participants, because their reputation as verifiers is their primary asset. This model directly addresses the bootstrapping problem, the offline verification problem, and the anomaly detection problem simultaneously. It is the most field-tested approach available and should be treated as the primary model rather than one option among several.
 
-**On the bootstrapping problem:** Aura suffered from the same bootstrapping problem as original BrightID — the network begins with whoever discovers it first, and early demographics shape the vouching graph. Deliberate seeding across culturally and geographically diverse starting communities is required. This is a known challenge.
+**On the bootstrapping problem:** Aura suffered from the same bootstrapping problem as original BrightID — the network begins with whoever discovers it first, and early demographics shape the vouching graph. Deliberate seeding across culturally and geographically diverse starting communities is required. This is a known challenge, not an unknown one.
 
 **Strengths:** No central database. Scales organically. Works without a smartphone for the vouching act itself. Culturally familiar. Particularly strong for communities where physical co-presence is possible. The skilled verifier model adds robustness without centralisation.
 
@@ -129,7 +131,13 @@ Combining the above, the proposed verification architecture is:
 
 The revised approach is a **skilled verifier cadre** — approximately 1% of participants who have demonstrated commitment to the protocol's integrity, have significant reputational stakes in accurate verification, and are specifically equipped and incentivised to detect and flag anomalous patterns. These verifiers may use AI tools to assist with pattern detection. They are not random; they are selected and maintained through a reputation-based process.
 
-This creates a tension with the protocol's anti-capture principle: a standing cadre of skilled verifiers with significant influence over the verification layer is a potential capture point. The resolution is transparency and accountability — the verifier cadre's decisions are published, their methodology is open, and their status is subject to community review. Capture is harder to sustain when it is visible.
+This creates a tension with the protocol's anti-capture principle: a standing cadre of skilled verifiers with significant influence over the verification layer is a potential capture point. The resolution is transparency, accountability, and — critically — a layered internal review structure rather than reliance on community oversight alone.
+
+In BrightID Aura, the relevant unit is not the individual verifier but the **Aura team** — a cadre of skilled verifiers operating in a given domain (unique humans, insurance claims, regulatory compliance). Within each team, supervisor roles ("trainer," "manager") evaluate other team members, in the same way that Aura participants evaluate the subjects they verify. These supervisor roles are open to anyone, exactly like the base verifier role, and are governed by the same skin-in-the-game principle: a supervisor who does a poor job, or attempts to exploit their position, can be rapidly de-authorised by other established participants, reversing the evaluations of a compromised verifier quickly.
+
+The community's role is broader but shallower — providing general consent and confidence that a given Aura team is performing well, which is necessary but not sufficient for catching specific failures. The specific, granular evaluation of verifier quality happens inside the team structure, among peers with direct visibility into each other's work. This is expert-evaluating-expert, not crowd-evaluating-expert. Teams have a structural incentive toward accuracy and honesty because their legitimacy — and their members' continued ability to participate — is conferred by the community accepting their evaluations over time.
+
+Adapted to the Commons Protocol, the skilled verifier cadre should be structured the same way: not a flat pool of individually accountable verifiers subject only to outside community review, but teams with internal supervisor roles, peer evaluation, and rapid de-authorisation capability — with community-level transparency and consent operating as the outer layer of accountability, not the only layer. Capture is harder to sustain when there are two independent layers of scrutiny, internal and external, rather than one.
 
 The middle-man problem — corrupt or captured verifiers stealing votes or other benefits — is much easier to detect and block than to bypass. Uncovering such problems is itself aligned with the Commons Protocol's purpose of bringing to light discrepancies between what people want and what actually happens. The protocol's transparency principle applies to its own verification layer as much as to the questions it surfaces.
 
@@ -180,6 +188,6 @@ The goal remains: arrive, through open critique, at a verification architecture 
 
 ---
 
-*Version 0.2 — internal working document — not for publication*
+*Version 0.3 — internal working document — not for publication*
 *No author. No organisation.*
 *Released under Creative Commons Attribution-NonCommercial-ShareAlike 4.0*
