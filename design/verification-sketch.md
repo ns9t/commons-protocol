@@ -11,7 +11,7 @@ v0.2 incorporated his first round of substantive critique. Specific changes from
 
 ---
 
-## The problem stated precisely
+## The problem
 
 Every existing verification system solves the uniqueness problem by knowing who you are. Governments issue identity documents. Platforms collect email addresses and phone numbers. Financial institutions require passports and proof of address. All of them trade privacy for certainty — they can confirm you are a unique individual because they know which individual you are.
 
