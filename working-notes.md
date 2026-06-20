@@ -357,3 +357,26 @@ Email sent to Marzia Briel — founding document PDF attached, direct links to g
 Primary purpose: governance and legal input to strengthen design documents. Secondary: potential connection to UK Nature's Rights Bill conversation and environmental policy networks.
 
 Await response before further action.
+
+---
+
+## Active flags — Adam Stallard / signal layer development (new section)
+
+**Flag 61 — Adam proposes Aura domain for evidence record evaluation**
+Adam Stallard proposed a new Aura domain — "ecological evidence records" — where experts evaluate validity of evidence sources. Directly relevant to Flag 18 (Approach A vs B in evidence record design — unresolved). Aura's domain-agnostic expert evaluation model, with internal team/supervisor structure (see Flag 13/v0.3 verification sketch), could function as the community classification with open contestation mechanism that Approach B calls for, without inventing it from scratch.
+
+Also proposed: locality/proximity rules for Aura evaluators in this domain, mirroring the filter pyramid's cross-cultural resonance and temporal independence anti-gaming criteria from the governance sketch. This is the first concrete technical proposal for implementing the filter pyramid's anti-gaming design rather than just describing it conceptually.
+
+Also stated: Updraft could potentially facilitate the funding of development and ongoing maintenance of the protocol "in a way that makes participation open for builders" — i.e. posting signal layer development as fundable bounties/ideas that builders pick up. This is the first time funding the actual signal layer build (not just surrounding infrastructure) has been raised as a possibility.
+
+Status: significant but not yet actionable. Requires digestion before further technical engagement. Not yet clear whether this represents Adam moving toward proposing himself/his tools as signal layer builder, or conceptual exploration only.
+
+**Flag 62 — Practical fitness-for-purpose concerns (new)**
+Direct testing experience raises open questions about whether Aura/BrightID is currently fit for purpose as proposed:
+- BrightID verification requires Zoom scheduling — raises the anonymity tension already flagged (Flag 14, safety paradox) — a live video call through a third-party platform is itself a disclosure surface
+- Currently only two languages available for verification scheduling (English, Spanish) — contradicts multilingual-by-default principle. Raise as concrete data point
+- aura.brightid.org "Add Device" flow produces reproducible technical failure — "Adding signing key failed", "document not found", "Channel [ID] not found", stuck on "Waiting for Signing keys" — documented with screenshots, timestamped, reproducible across multiple attempts
+- Cannot post in the specific Aura Discord channel for unclear reasons
+- Low recent community activity across Aura/BrightID/Updraft Discord channels — Adam appears to be primary or sole active voice keeping development visible in 2026
+
+These observations don't invalidate Adam's proposal but they are material to assessing current practical readiness of Aura/BrightID/Updraft as infrastructure for the Commons Protocol. Communicating with Adam as feedback in order to inform realistic sequencing of any collaboration.
