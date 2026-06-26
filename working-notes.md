@@ -6,7 +6,7 @@
 
 ## Status summary
 
-Repository public at github.com/ns9t/commons-protocol. Founding document at v0.9 — v1.0 revision pending (see Flag 50). Verification sketch at v0.3. Governance sketch at v0.2. Token funding layer at v0.2. Full design suite in /design folder. Essay "Wiring the Organism" published — no public responses but substantive engagement from Randolph Kent. Reply to Randolph sent. Adam Stallard (BrightID founder) engaged via Metagovernance Slack. Stewardship email: commonsprotocol@proton.me.
+Repository public at github.com/ns9t/commons-protocol. Founding document at v0.9 — v1.0 revision pending (see Flag 50). Verification sketch at v0.4. Governance sketch at v0.2. Token funding layer at v0.2. Full design suite in /design folder. Essay "Wiring the Organism" published — no public responses but substantive engagement from Randolph Kent. Reply to Randolph sent. Adam Stallard (BrightID founder) engaged via Metagovernance Slack. Stewardship email: commonsprotocol@proton.me.
 
 ---
 
@@ -68,7 +68,7 @@ Partially addressed by BrightID Aura model. Deliberate seeding across diverse st
 ## Active flags — verification design
 
 **Flag 13 — Verification sketch status**
-v0.3 complete. Adam Stallard credited for two rounds of critique. v0.3 adds Aura's layered internal review structure — supervisor roles, peer evaluation within teams, rapid de-authorisation — distinguishing from shallower community-level oversight. Awaiting further response from Adam.
+v0.4 complete. Adam Stallard credited for three rounds of engagement. v0.4 adds BrightID/Aura relationship clarification, Zoom concern resolved, Aura Player app and purpose-built frontend possibility noted.
 
 **Flag 14 — The safety paradox**
 Partially addressed in v0.2/v0.3. Remains priority challenge. Current BrightID verification requires Zoom — a third-party video platform that is itself a disclosure surface, undermining the anonymity principle regardless of Aura's own privacy design. To be raised with Adam.
@@ -218,7 +218,7 @@ commons-protocol/
 ├── LICENCE
 └── design/
     ├── governance-sketch.md (v0.2)
-    ├── verification-sketch.md (v0.3)
+    ├── verification-sketch.md (v0.4)
     ├── evidence-record-design.md (v0.1)
     ├── token-funding-layer.md (v0.2)
     ├── tiered-access-specification.md (v0.1 — v0.2 needed)
@@ -298,9 +298,9 @@ Essay pitched. Notable alumni: Evan Prodromou (co-authored ActivityPub, now Dire
 Email sent to Marzia Briel — founding document PDF attached, governance sketch and evidence record design links included. Await response.
 
 **Flag 61 — Adam proposes Aura domain for evidence record evaluation**
-Adam's message: "I'm rereading some of the sections with an eye to how we might build the infrastructure for the consensus mechanism. I can imagine an Aura domain called 'ecological evidence records' where experts can evaluate their validity. To comply with the 'filter' approach, which I like, there can be a rule in the domain about Aura player locality and proximity when making evaluations. Updraft can fund the development and ongoing maintenance of the protocol, in a way that makes participation open for builders."
+Adam's exact message: "I'm rereading some of the sections with an eye to how we might build the infrastructure for the consensus mechanism. I can imagine an Aura domain called 'ecological evidence records' where experts can evaluate their validity. To comply with the 'filter' approach, which I like, there can be a rule in the domain about Aura player locality and proximity when making evaluations. Updraft can fund the development and ongoing maintenance of the protocol, in a way that makes participation open for builders."
 
-This message:
+Three things this message does:
 1. Proposes "ecological evidence records" Aura domain for evaluating credibility of evidence sources — maps directly onto Flag 18 (Approach A vs B). Aura's expert evaluation model with teams and supervisor roles could be exactly the Approach B mechanism without building it from scratch.
 2. Proposes locality/proximity rules for Aura evaluators — first concrete technical proposal for implementing the filter pyramid's anti-gaming design rather than just describing it conceptually.
 3. Proposes Updraft to fund development and maintenance "in a way that makes participation open for builders" — first time funding the actual signal layer build has been raised as a possibility.
@@ -339,7 +339,15 @@ Permissions appear to have been granted through direct engagement. No longer blo
 **Community activity:**
 Low recent activity across Aura/BrightID/Updraft Discord channels. Adam appears primary active voice. Aura Add Device query on 22nd June unanswered as of session date.
 
-Next action: wait for Adam's engineer query to receive a response. Nothing further to do on testing until Aura access issue is resolved.
+**Two additional Aura entry points identified (not yet accessible):**
+Adam described two lighter entry points beyond the main heavy Aura app:
+- "Aura Verified" — shows steps to get a BrightID Aura unique personhood verification for an integrated app
+- "Aura Player app" — starts with easy evaluative questions, learns what evaluator is good at, matches to relevant domains. This is the accessible entry point; the main Aura app is described by Adam as "heavy and more suited for advanced roles (trainer, manager)"
+
+Adam asked community members UBIpromoter and Ali Maktabi to share in-development links for Nik to try. No response received as of session date — consistent with low community activity observation. When links arrive, Aura Player app is the correct starting point for testing, not the main Aura app.
+
+**Aura/BrightID relationship confirmed by Adam:**
+Aura is the underlying evaluation protocol. BrightID is currently the only implementation. The mechanism could be used in any number of alternative verification apps or use cases. Work underway to make creating and joining domains easier. This confirms the Commons Protocol could potentially implement Aura through a purpose-built frontend rather than depending on the BrightID app specifically.
 
 ---
 
