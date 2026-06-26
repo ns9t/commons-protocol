@@ -252,7 +252,19 @@ commons-protocol/
 - **Marzia Briel / Reading University** — founding document sent, await response
 - **Gareth Owen / Kate Hart (Sense-Making Project)** — introduction requested via Randolph, pending
 - **Global Regeneration CoLab** — filed for later
-- **Anton Parf / Anthosphere** — Metagovernance Slack contact, philosophical alignment, provided most systematic external critique via audit tool, reply pending
+- **Anton Parf / Anthosphere** — Metagovernance Slack contact, philosophical alignment, provided most systematic external critique via audit tool, reply sent.
+
+Background: Ukrainian systems thinker (real surname Parfentiev), author of *Architect of Reality*, builder of Anthosphere platform. Has written daily letters to Ukrainian soldiers for five years — describes this as the spine of everything else he does. Works with an "AI Coalition" as genuine partner. Based in Ukraine, living with children.
+
+Central thesis: civilisation breaks through goal-based architecture (Goodhart's Law applied to the species). His alternative is boundary-based architecture — a single axiom that cannot be violated: Life is the indivisible value of any stable system. He describes Anthosphere as doing for civilisation what Constitutional AI does for language models.
+
+Built: Anthosphere platform, audit tool (Claude Haiku API), Living Hectare Amazon monitoring programme (drone sensors, direct farmer payments), drone flight calculator, memory system.
+
+**Alignment:** Both projects operate by constraint rather than optimisation target. The boundary-based vs goal-based convergence is genuine. The Living Hectare project overlaps directly with the interconnection map and evidence record design.
+
+**Distinction — worth holding onto:** Anthosphere's constraints are designed and specified in advance — 17 Foundations, defined architectural roles, Life as axiom. The Commons Protocol's designed constraints are minimal — signal unmonetised, voice equitable. Everything else is left open. The protocol doesn't specify what a good outcome looks like. Anthosphere does, structurally. The difference is not purposive vs purposeless but: who specifies the constraints and how many. Anton specifies 17. The Commons Protocol specifies 2. Both are boundary-based; they reflect different theories of where the designer's hand should stop.
+
+First exchange: initial message implied Anthosphere was prescriptive where Commons Protocol is descriptive. Anton correctly pushed back — Anthosphere is also purposeless and constraint-based. Second message acknowledged this and reframed as complementary. Reply sent positioning Commons Protocol as the signal layer that tells Anthosphere what humanity actually thinks it's trying to coordinate around. Await his response.
 - **Protocol Institute / Protocolized** — essay pitched, await response
 - **Project Drawdown** — deferred
 - **IFCN fact-checking organisations** — deferred
