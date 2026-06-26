@@ -252,6 +252,7 @@ commons-protocol/
 - **Marzia Briel / Reading University** — founding document sent, await response
 - **Gareth Owen / Kate Hart (Sense-Making Project)** — introduction requested via Randolph, pending
 - **Global Regeneration CoLab** — filed for later
+- **Anton Parf / Anthosphere** — Metagovernance Slack contact, philosophical alignment, provided most systematic external critique via audit tool, reply pending
 - **Protocol Institute / Protocolized** — essay pitched, await response
 - **Project Drawdown** — deferred
 - **IFCN fact-checking organisations** — deferred
@@ -297,9 +298,9 @@ Essay pitched. Notable alumni: Evan Prodromou (co-authored ActivityPub, now Dire
 Email sent to Marzia Briel — founding document PDF attached, governance sketch and evidence record design links included. Await response.
 
 **Flag 61 — Adam proposes Aura domain for evidence record evaluation**
-Adam's exact message: "I'm rereading some of the sections with an eye to how we might build the infrastructure for the consensus mechanism. I can imagine an Aura domain called 'ecological evidence records' where experts can evaluate their validity. To comply with the 'filter' approach, which I like, there can be a rule in the domain about Aura player locality and proximity when making evaluations. Updraft can fund the development and ongoing maintenance of the protocol, in a way that makes participation open for builders."
+Adam's message: "I'm rereading some of the sections with an eye to how we might build the infrastructure for the consensus mechanism. I can imagine an Aura domain called 'ecological evidence records' where experts can evaluate their validity. To comply with the 'filter' approach, which I like, there can be a rule in the domain about Aura player locality and proximity when making evaluations. Updraft can fund the development and ongoing maintenance of the protocol, in a way that makes participation open for builders."
 
-Three things this message does:
+This message:
 1. Proposes "ecological evidence records" Aura domain for evaluating credibility of evidence sources — maps directly onto Flag 18 (Approach A vs B). Aura's expert evaluation model with teams and supervisor roles could be exactly the Approach B mechanism without building it from scratch.
 2. Proposes locality/proximity rules for Aura evaluators — first concrete technical proposal for implementing the filter pyramid's anti-gaming design rather than just describing it conceptually.
 3. Proposes Updraft to fund development and maintenance "in a way that makes participation open for builders" — first time funding the actual signal layer build has been raised as a possibility.
@@ -314,15 +315,31 @@ This resolves the scope concern cleanly and introduces a third option better tha
 
 Status: scope concern resolved. Aura's fluid domain model is well-suited to the Commons Protocol's multi-category question architecture. Remaining open question: how the evaluator feedback loop handles genuinely novel question categories with no established evaluator niche yet — worth asking Adam in due course but not blocking.
 
-**Flag 62 — Practical fitness-for-purpose concerns**
-Direct testing of Aura/BrightID/Updraft raises open questions:
-- BrightID verification requires Zoom — third-party video platform is a disclosure surface, undermining anonymity principle regardless of Aura's own privacy design
-- Only two languages available for verification scheduling (English, Spanish) — contradicts multilingual-by-default principle
-- aura.brightid.org "Add Device" flow produces reproducible failure — "Adding signing key failed", "document not found", "Channel not found", stuck on "Waiting for Signing keys" — documented with screenshots
-- Cannot post in Aura Discord channel for unclear reasons
-- Low recent community activity across all three Discord channels — Adam appears primary active voice in 2026
+**Flag 62 — Practical fitness-for-purpose concerns (updated)**
+Direct testing of Aura/BrightID/Updraft raises open questions. Two separate technical issues clarified:
 
-To be communicated to Adam via Slack as honest field feedback, ahead of any further architectural conversation.
+**BrightID node failure (resolved):**
+Adam and Nik connected over BrightID via Discord — face-to-face or any trusted channel works, Zoom is not required. During connection attempt, three nodes reported as available when broken. Adam filed GitHub issue #380 on BrightID-Node immediately. Engineer query outstanding. Known infrastructure bug being actively addressed, not a fundamental design flaw. Nik is now connected with Adam in BrightID social graph — first verified connection established.
+
+**Aura Add Device failure (unresolved):**
+Separate from BrightID connection. Attempting to access aura.brightid.org produces reproducible failure — "Adding signing key failed", "document not found", "Channel not found", stuck on "Waiting for Signing keys" — documented with screenshots. Adam posted for assistance in Aura Discord channel on 22nd June. No response from other engineers as yet. Aura remains inaccessible. This is blocking any further Aura testing.
+
+**Clarification on BrightID vs Aura relationship:**
+BrightID is the identity layer — social graph establishing unique personhood. Aura is the evaluation layer — credibility and expertise assessment built on top of BrightID. BrightID connection does not automatically grant Aura access. The Add Device failure is blocking the bridge between the two. A single BrightID connection (with Adam) does not yet confer verification status — needs more connections across diverse social contexts for the graph to confirm uniqueness.
+
+**Language limitation (raised in Discord):**
+Only English and Spanish available for verification scheduling. Flagged in BrightID Discord as concrete feedback. Contradicts multilingual-by-default principle — significant constraint for a genuinely global protocol.
+
+**Zoom concern (resolved):**
+Not a structural design flaw. Any trusted channel works — Discord, face-to-face, any pre-existing relationship. Face-to-face is preferred. Zoom was never a requirement, only a default option. Anonymity concern substantially mitigated.
+
+**Discord posting:**
+Permissions appear to have been granted through direct engagement. No longer blocking.
+
+**Community activity:**
+Low recent activity across Aura/BrightID/Updraft Discord channels. Adam appears primary active voice. Aura Add Device query on 22nd June unanswered as of session date.
+
+Next action: wait for Adam's engineer query to receive a response. Nothing further to do on testing until Aura access issue is resolved.
 
 ---
 
@@ -413,8 +430,37 @@ Zoom dependency independently confirmed: "Zoom extracts metadata" — validates 
 Entry point: "Verifier Replication Protocol" subproject — training pathway for existing verified participants to become junior verifiers, graduated responsibility and reversible authorisation. Measure: does new cohort accuracy match senior cadre within 6 months? Can compromised verifier be de-authorised in under 48 hours? Does verifier pool grow 2x/year without concentration? This is essentially a spec for solving the bootstrapping problem.
 Reality check synthesis: "verification cadres cannot bootstrap credibility in low-trust environments where institutional capture is priced at 60%+ probability." The 60.5% GDPR enforcement probability against AI misuse confirms Zoom dependency is live regulatory risk, not just design concern.
 
-**Audits 4 and 5 — Evidence record design and token funding layer**
-Pending — rate limit reached. To be run and results added here.
+**Audit 4 — Evidence record design: score 72/100**
+URL: anthosphere.com/audit/reports/commons-protocol-evidence-record-design-20260626-212206.html
+Lowest score in series. Critical gap: the hybrid model reintroduces the very problem it's trying to solve. An expert panel selected by any mechanism becomes a new credentialing system subject to capture. "How are evaluators selected? Who audits the auditors? This is unsolved and may be unsolvable within the proposed architecture." Strongest challenge yet.
+Hidden strength: honest acknowledgement of what cannot be resolved (retraction, indigenous knowledge systems, scalability, first-mover capture) demonstrates mature epistemic humility — rare and valuable.
+Resources score 3 — lowest across all audits. Evidence record maintenance requires perpetual labour with no funding model.
+Architect verdict proposes two alternatives: (1) reputation-weighted voting where participants earn evaluation authority through track record; (2) distribute panel membership across competing epistemic communities, making disagreement structural rather than pathological. The second is close to what Aura's fluid domain model already does — audit may be proposing something Adam has partially designed.
+Entry point: pilot on a high-stakes captured domain — agricultural toxicology or vaccine safety pharmacovigilance — recruiting both mainstream and dissenting evaluators from day one. Let them publicly disagree. Test whether contestation process becomes more credible than either side alone. This is the hardest possible test case, which makes it the most valuable.
+Reality check synthesis: Canada Online News Act at 81.3% repeal probability — cautionary precedent for any top-down credentialing system imposed without stakeholder buy-in. No Polymarket signals for information integrity niches — real-money markets don't yet have instruments for this problem space, which is itself evidence of the gap the Commons Protocol is trying to fill.
+
+**Audit 5 — Token funding layer: score 82/100**
+URL: anthosphere.com/audit/reports/global-commons-consensus-protocol-token-funding-layer-20260626-212912.html
+Critical gap: resource sufficiency horizon undefined. Entirely dependent on philanthropic grant ecosystem with no specified fallback. "A single point of failure in the funding architecture itself — the very thing the ATP model was designed to prevent through redundancy and regeneration." A neat irony worth naming explicitly in the document.
+Hidden strength: "The enemy is not greed but architecture." The CEU model correctly identifies that the problem is not who gets money but that money creates extraction incentives where coordination should be gift-based. Structural separation of signal from monetisation described as "second-order design — not metaphorical but functional." Worth quoting directly in the accessible summary document.
+Entry point: resilience working group — (1) map 5-year grant funding dependency curve with defunding scenarios; (2) design complementary revenue model for infrastructure that doesn't compromise signal; (3) test geographic equity framework for contributor compensation in pilot regions. This maps directly onto what a first collaboration with Adam and Updraft could look like.
+
+**Complete cross-audit score summary:**
+- Founding document: 78
+- Governance sketch: 82
+- Verification sketch: 82
+- Evidence record design: 72
+- Token funding layer: 82
+
+**Cross-audit patterns:**
+Resources (Foundation 10) scores 4, 4, 4, 3, 5 across the five audits — the single most persistent gap across the entire design suite. No document adequately addresses self-sufficiency.
+Resilience (Foundation 6) scores 6, 9, 5, 4, 6 — the governance sketch scores highest because rotation and removal mechanisms are most developed; evidence record design scores lowest because expert panel is a single legitimacy point of failure.
+The evidence record design (72) is the weakest document in the suite — the expert panel problem is genuinely harder and the current design doesn't resolve it. Needs a third approach added alongside A and B: distributed panel membership across competing epistemic communities making disagreement structural rather than pathological.
+The recursive self-application insight from the governance audit — using the protocol's own methodology to govern its own resource allocation — is the most generative single idea across all five audits. Applies to both the funding layer and the custodian compensation problem.
+"The enemy is not greed but architecture" (token funding hidden strength) and "verification is a social problem not a technical one" (verification hidden strength) are the two most quotable observations from the series — both belong in the accessible summary document.
+
+**Anton Parf relationship:**
+Anthosphere audit tool has provided the most structured external critique the project has received to date — more systematic than Randolph's annotations, more comprehensive than Adam's design critiques. Anton should be engaged as a serious contact. His philosophical convergence (Anthosphere is also purposeless and constraint-based, not goal-directed) suggests genuine alignment. Reply to his Slack message still to be drafted. Add to institutional relationships.
 
 **Cross-audit observations so far:**
 - Scores: 78 (founding doc), 82 (governance), 82 (verification) — consistent improvement as design detail increases
