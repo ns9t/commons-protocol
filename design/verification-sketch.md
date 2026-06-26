@@ -11,7 +11,7 @@ v0.2 incorporated his first round of substantive critique. Specific changes from
 
 ---
 
-## The identity verification problem
+## The problem stated precisely
 
 Every existing verification system solves the uniqueness problem by knowing who you are. Governments issue identity documents. Platforms collect email addresses and phone numbers. Financial institutions require passports and proof of address. All of them trade privacy for certainty — they can confirm you are a unique individual because they know which individual you are.
 
@@ -151,7 +151,7 @@ This approach is consistent with the no-central-authority principle and draws on
 
 ---
 
-## The Sybil problem
+## The Sybil problem stated honestly
 
 A Sybil attack is the creation of multiple fake identities to manipulate a system that weights participants equally. No verification architecture eliminates it entirely. The goal is making Sybil attacks sufficiently costly, detectable, and low-yield that they are economically and practically irrational.
 
@@ -172,7 +172,9 @@ The layered model addresses this through:
 
 - **Offline verification at scale:** The skilled verifier model handles offline communities well at small scale. At large scale — verifying millions of participants across low-connectivity regions — the model needs further development. Physical community verification events are possible but require trusted local organisers who are themselves part of the verifier cadre.
 
-- **The safety paradox:** Participants most in need of privacy protection — dissidents, activists, people in repressive regimes — are also those for whom video-based verification is most dangerous. The skilled verifier model may actually help here, since verification can happen in person rather than on camera. But the design of safe verification pathways for high-risk participants remains a priority challenge.
+- **The safety paradox:** Participants most in need of privacy protection — dissidents, activists, people in repressive regimes — are also those for whom video-based verification is most dangerous. The skilled verifier model directly addresses this: Adam Stallard (BrightID founder) confirmed that face-to-face verification via any trusted channel is the preferred model — Zoom is a default option, not a requirement. A BrightID connection can be established over Discord or any pre-existing trusted relationship. This substantially mitigates the video verification concern for high-risk participants, though in-person verification at scale remains an open implementation challenge.
+
+- **Current infrastructure maturity:** As of June 2026, BrightID and Aura remain in active development. Known issues include node failures (GitHub issue #380 filed by Adam Stallard, engineer response pending) and Aura Add Device failures blocking access to the evaluation layer for new users. Language support currently limited to English and Spanish for verification scheduling — a significant constraint for a multilingual-by-default protocol. These are known bugs being actively addressed, not fundamental design flaws, but they indicate that BrightID/Aura is not yet production-ready at the scale the Commons Protocol requires.
 
 - **Legal exposure:** Operating any verification system may trigger regulatory requirements under GDPR, CCPA, or equivalent frameworks depending on jurisdiction. Legal review is required before any implementation.
 
