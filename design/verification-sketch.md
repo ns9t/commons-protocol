@@ -1,11 +1,13 @@
 # Commons Protocol — Verification Sketch
-### Design document v0.3 / internal / not for publication
+### Design document v0.4 / internal / not for publication
 
 ---
 
 ## Version notes
 
-v0.3 incorporates a second round of feedback from Adam Stallard (BrightID/Updraft founder), adding detail on Aura's layered internal review structure — supervisor roles, peer evaluation within teams, and rapid de-authorisation — distinguishing this from the shallower, necessary-but-insufficient role of community-level oversight.
+v0.4 adds clarification on BrightID/Aura relationship from direct exchanges with Adam Stallard: Zoom is not required for verification — any trusted channel works, face-to-face preferred; two lighter Aura entry points identified (Aura Verified and Aura Player app); Aura confirmed as underlying evaluation protocol with BrightID as current sole implementation, opening possibility of purpose-built Commons Protocol frontend; current infrastructure maturity noted honestly with known bugs and language limitations.
+
+v0.3 incorporated second round of Adam Stallard feedback — Aura's layered internal review structure, supervisor roles, peer evaluation within teams, rapid de-authorisation.
 
 v0.2 incorporated his first round of substantive critique. Specific changes from v0.1: BrightID Aura referenced as more relevant prior art than original BrightID verification model; behavioural characteristics approach flagged as incompatible with no-central-authority principle and de-emphasised accordingly; participation history as uniqueness signal identified as gameable and removed as a verification criterion; skilled verifier cadre model incorporated as a candidate approach to anomaly detection; social recovery added as key recovery recommendation.
 
@@ -175,6 +177,8 @@ The layered model addresses this through:
 - **The safety paradox:** Participants most in need of privacy protection — dissidents, activists, people in repressive regimes — are also those for whom video-based verification is most dangerous. The skilled verifier model directly addresses this: Adam Stallard (BrightID founder) confirmed that face-to-face verification via any trusted channel is the preferred model — Zoom is a default option, not a requirement. A BrightID connection can be established over Discord or any pre-existing trusted relationship. This substantially mitigates the video verification concern for high-risk participants, though in-person verification at scale remains an open implementation challenge.
 
 - **Current infrastructure maturity:** As of June 2026, BrightID and Aura remain in active development. Known issues include node failures (GitHub issue #380 filed by Adam Stallard, engineer response pending) and Aura Add Device failures blocking access to the evaluation layer for new users. Language support currently limited to English and Spanish for verification scheduling — a significant constraint for a multilingual-by-default protocol. These are known bugs being actively addressed, not fundamental design flaws, but they indicate that BrightID/Aura is not yet production-ready at the scale the Commons Protocol requires.
+
+Two lighter entry points exist beyond the main Aura app (which Adam describes as "heavy and more suited for advanced roles"): "Aura Verified" for new users seeking unique personhood verification, and the "Aura Player app" which introduces evaluative questioning and domain matching progressively. Both are in development. Critically, Adam confirmed that Aura is the underlying evaluation protocol and BrightID is currently its only implementation — but the mechanism could be used in any number of alternative verification apps. This means the Commons Protocol could potentially implement Aura through a purpose-built frontend rather than depending on the BrightID app specifically, which opens a significant design possibility worth exploring with Adam.
 
 - **Legal exposure:** Operating any verification system may trigger regulatory requirements under GDPR, CCPA, or equivalent frameworks depending on jurisdiction. Legal review is required before any implementation.
 
