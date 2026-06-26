@@ -41,6 +41,11 @@ The following specific revisions are queued for the next full revision pass. Do 
 - **Fediverse / Nostr clarification** — note that Nostr is a distinct and complementary approach to ActivityPub, not the same thing.
 - **"Who this is for"** — add audience framing either here or in accessible summary document (see Flag 58).
 
+*From Anthosphere audit series:*
+- **Custodian accountability architecture** — "those who tend it are custodians, not authors" is aspirational without specifying how custodians are chosen, rotated, or removed. The governance sketch addresses this in detail but the founding document should carry a plain-language summary. Anthosphere audit: "this is where every commons system has failed historically."
+- **Recursive compensation model** — add a sentence noting that infrastructure funding and custodian compensation may themselves be subject to the protocol's own governance methodology — using the protocol to govern its own resource allocation. This transforms economic sustainability from a vulnerability into a governance demonstration.
+- **"No antibodies for systematic institutional corruption"** — the founding document should acknowledge that the protocol is designed for honest actors and that custodian capture is the primary architectural risk, with the governance sketch as the mitigation.
+
 *Previously flagged, held for same revision pass:*
 - Participation-quality tradeoff acknowledgement already in v0.9 — hold.
 - Multilingual consistency resolved in v0.5 — closed.
@@ -314,7 +319,10 @@ Direct testing of Aura/BrightID/Updraft raises open questions:
 - BrightID verification requires Zoom — third-party video platform is a disclosure surface, undermining anonymity principle regardless of Aura's own privacy design
 - Only two languages available for verification scheduling (English, Spanish) — contradicts multilingual-by-default principle
 - aura.brightid.org "Add Device" flow produces reproducible failure — "Adding signing key failed", "document not found", "Channel not found", stuck on "Waiting for Signing keys" — documented with screenshots
+- Cannot post in Aura Discord channel for unclear reasons
 - Low recent community activity across all three Discord channels — Adam appears primary active voice in 2026
+
+To be communicated to Adam via Slack as honest field feedback, ahead of any further architectural conversation.
 
 ---
 
@@ -372,3 +380,45 @@ The citizen-infra.netlify.app site uses Starlight (Astro-based documentation fra
 As the Commons Protocol matures and the audience broadens beyond technical collaborators to institutional, civic, and funding audiences, a similar presentation layer over the existing documentation would significantly improve accessibility. The current GitHub repository remains the canonical home; a Starlight or GitBook front-end could present the same content more invitingly.
 
 Note for later: when the protocol reaches the stage of seeking wider institutional engagement or grant funding, commissioning or building a documentation site in this format should be considered. Not a priority now — the content needs to be stable first.
+
+---
+
+## Active flags — Anthosphere audit findings
+
+**Flag 66 — Anthosphere audit series (new)**
+Anton Parf (systems strategist, founder of Anthosphere Network) introduced himself in Metagovernance Slack. His site (anthosphere.com) includes an AI-powered audit tool that evaluates projects against 17 foundations derived from a civilisational operating system framework. The founding document was submitted and audited. Subsequently condensed versions of each design document were produced (under 8,000 character limit) and audited separately.
+
+Anton's Slack message in response to the Commons Protocol introduction: "Why do you think the Antosphere has a purpose in its movement? In fact, it is a purposeless system. But there are limits — it is not to harm the balance of life." This signals philosophical convergence — Anthosphere is also emergent and constraint-based rather than goal-directed, closer to the Commons Protocol than the initial framing suggested.
+
+**Audit 1 — Founding document: score 78/100**
+URL: anthosphere.com/audit/reports/global-commons-consensus-protocol-20260626-202758.html
+Critical gap: custodian selection, succession, and accountability not architected — only declared. "Those who tend it are custodians, not authors" is aspirational without specifying how custodians are chosen, rotated, or removed.
+Hidden strength: reframing environmental, humanitarian, and justice concerns as expressions of a single pathology (commons extraction) bypasses identity-based argument and operates at the level of observable, queryable geography.
+Reality check synthesis: institutional legitimacy and custodial authority under acute stress globally. Prediction markets pricing institutional collapse and geopolitical fragmentation. Absence of custodian rotation and removal triggers replicates the brittleness markets are betting will break.
+
+**Audit 2 — Governance sketch: score 82/100**
+URL: anthosphere.com/audit/reports/global-commons-consensus-protocol-20260626-210046.html
+Critical gap: compensation model and self-sufficiency pathway. Without sustainable compensation for custodians and panelists, protocol depends on volunteer labour or external funding — a single point of economic failure.
+Hidden strength: gaming prevention through inversion (scrutiny rewards honesty rather than suppressing gaming) is architecturally elegant and psychologically robust — exploits human nature rather than fighting it.
+Architect verdict: well-designed for honest actors but has no antibodies for systematic institutional corruption of the custodian layer itself.
+Entry point: use the Commons Protocol's own methodology to solve the compensation problem — pilot a participatory budgeting decision on how to fund custodians. Recursive self-application.
+Reality check synthesis: "making custodian remuneration subject to the same inversion-gaming-prevention logic that governs policy panelists, transforming economic sustainability from a vulnerability into a governance demonstration." This is a candidate resolution to the resources gap — worth adding to token funding layer design document.
+
+**Audit 3 — Verification sketch: score 82/100**
+URL: anthosphere.com/audit/reports/global-commons-consensus-protocol-verification-layer-20260626-210713.html
+Critical gap: bootstrapping problem is architectural not tactical. How does the first verifier cadre acquire credibility without a track record? No structural incentive alignment beyond reputation. If cadre is corrupted, captured, or disappeared, no recovery protocol described.
+Hidden strength: verification correctly identified as a social problem not a technical one. Vouching-with-stakes over behavioural inference is rare institutional design wisdom. Protection of high-risk populations as design north star is uncommonly ethical.
+New critique: "who selects selectors?" — wisdom is not the same as skill. Verification sketch doesn't specify how verifiers are assessed for judgement, not just technical competence.
+Zoom dependency independently confirmed: "Zoom extracts metadata" — validates testing observation as a design flaw not just UX inconvenience. Foundation 14 (Cognition) compromised by this dependency.
+Entry point: "Verifier Replication Protocol" subproject — training pathway for existing verified participants to become junior verifiers, graduated responsibility and reversible authorisation. Measure: does new cohort accuracy match senior cadre within 6 months? Can compromised verifier be de-authorised in under 48 hours? Does verifier pool grow 2x/year without concentration? This is essentially a spec for solving the bootstrapping problem.
+Reality check synthesis: "verification cadres cannot bootstrap credibility in low-trust environments where institutional capture is priced at 60%+ probability." The 60.5% GDPR enforcement probability against AI misuse confirms Zoom dependency is live regulatory risk, not just design concern.
+
+**Audits 4 and 5 — Evidence record design and token funding layer**
+Pending — rate limit reached. To be run and results added here.
+
+**Cross-audit observations so far:**
+- Scores: 78 (founding doc), 82 (governance), 82 (verification) — consistent improvement as design detail increases
+- Resources (Foundation 10) scores 4 across all audits — the single most persistent gap
+- Resilience (Foundation 6) improves from 6 to 9 to 5 across audits — the governance sketch scores highest because its rotation and removal mechanisms are the most developed; the verification sketch pulls it back down due to cadre concentration
+- The recursive self-application suggestion (use the protocol to govern its own resource allocation) is the most generative entry point across all audits and deserves serious design attention
+- Anton Parf and Anthosphere represent a potentially significant contact — philosophical alignment, serious analytical framework, Ukrainian/international background. Add to institutional relationships. Reply to his Slack message still to be drafted.
