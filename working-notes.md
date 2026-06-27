@@ -252,6 +252,7 @@ commons-protocol/
 - **Marzia Briel / Reading University** — founding document sent, await response
 - **Gareth Owen / Kate Hart (Sense-Making Project)** — introduction requested via Randolph, pending
 - **Global Regeneration CoLab** — filed for later
+- **Angel Marino** — Metagovernance Slack, software engineer / tech exec, federated systems background, essay read and resonated, signal layer ask made, await response
 - **Anton Parf / Anthosphere** — Metagovernance Slack contact, philosophical alignment, provided most systematic external critique via audit tool, reply sent.
 
 Background: Ukrainian systems thinker (real surname Parfentiev), author of *Architect of Reality*, builder of Anthosphere platform. Has written daily letters to Ukrainian soldiers for five years — describes this as the spine of everything else he does. Works with an "AI Coalition" as genuine partner. Based in Ukraine, living with children.
@@ -488,3 +489,14 @@ Anthosphere audit tool has provided the most structured external critique the pr
 - Resilience (Foundation 6) improves from 6 to 9 to 5 across audits — the governance sketch scores highest because its rotation and removal mechanisms are the most developed; the verification sketch pulls it back down due to cadre concentration
 - The recursive self-application suggestion (use the protocol to govern its own resource allocation) is the most generative entry point across all audits and deserves serious design attention
 - Anton Parf and Anthosphere represent a potentially significant contact — philosophical alignment, serious analytical framework, Ukrainian/international background. Add to institutional relationships. Reply to his Slack message still to be drafted.
+
+**Flag 67 — Angel Marino / Metagovernance Slack (new)**
+Introduced himself in Metagovernance Slack. Tech exec by day, software engineer by trade, builder at heart. Leads engineering for core tech platforms at People Inc. Has built autonomous, federated, decentralised team structures inside corporate environments — proving decentralisation principles work in practice. Deep experience in agentic software development. Side project: Prose — 100% agentically developed AI writing app that encodes the belief AI should not write for you. Interested in atproto, DWeb, Metagov adjacents. Explicitly looking for something to build or contribute to that doesn't duplicate existing efforts.
+
+Essay read and resonated — has a giant pale blue dot print in his office. Asked two precise questions: (1) how does the filter pyramid avoid becoming a new hierarchy; (2) which verification approach carries strongest merits currently. Both answered directly — governance sketch for the filter pyramid tension, BrightID Aura for verification. Signal layer ask made explicitly: "nobody has yet said they can build it."
+
+Angel sent a substantive and positive response, incorporating the Apollo 8 callback. Awaiting further engagement.
+
+**Why he matters:** Different profile from Adam — where Adam is the identity and funding infrastructure expert, Angel appears to be the federated application layer builder. His background in distributed systems, atproto, and agentic development maps directly onto the signal layer infrastructure gap. Most promising potential technical collaborator to emerge from Metagovernance community since Adam. Relationship worth nurturing carefully.
+
+Contact: Metagovernance Slack. Blog: angelmarino.com. Project: Prose (solo.ist/prose).
