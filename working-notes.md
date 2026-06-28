@@ -222,7 +222,7 @@ commons-protocol/
     ├── evidence-record-design.md (v0.1)
     ├── token-funding-layer.md (v0.2)
     ├── tiered-access-specification.md (v0.1 — v0.2 needed)
-    ├── interconnection-map-design.md (v0.1)
+    ├── interconnection-map-design.md (v0.2)
     └── influences-prior-art.md (v0.1)
 ```
 
@@ -500,3 +500,18 @@ Angel sent a substantive and positive response, incorporating the Apollo 8 callb
 **Why he matters:** Different profile from Adam — where Adam is the identity and funding infrastructure expert, Angel appears to be the federated application layer builder. His background in distributed systems, atproto, and agentic development maps directly onto the signal layer infrastructure gap. Most promising potential technical collaborator to emerge from Metagovernance community since Adam. Relationship worth nurturing carefully.
 
 Contact: Metagovernance Slack. Blog: angelmarino.com. Project: Prose (solo.ist/prose).
+
+**Flag 68 — Marshmallow Laser Feast / Emergence Magazine (new)**
+Marshmallow Laser Feast (marshmallowlaserfeast.com) — immersive art studio working at the intersection of data visualisation, ecology, and embodied experience. Two works directly relevant to the interconnection map design:
+
+*Water Body* — compresses a year of planetary water circulation into 10 seconds using NASA, Copernicus, and global river/Antarctic tracking data. Permanent installation at Artis Aquarium, Amsterdam. Reveals water as living planetary metabolism.
+
+*Breathing with the Forest* — synchronises viewer's breath with five-second molecular cycles in mycorrhizal networks of a Capinuri tree in the Colombian Amazon. Interactive multimedia, guided by Colin Salmon narration.
+
+Both works demonstrate at scale: temporal compression as revelation; scale collapse from molecular to planetary; invisible systems made visible as phenomenon not argument; synchronisation with the human body as the central experiential mechanism.
+
+Incorporated into interconnection map design document v0.2 as a new experiential design principles section and added to prior art section. A formal conversation with MLF as design consultants or collaborators is worth pursuing once the protocol has sufficient institutional standing.
+
+Emergence Magazine (emergencemagazine.org) — publication at the intersection of ecology, culture, and spirituality. The editorial context in which MLF's work circulates. Potential publication venue for "The God in the River" essay. Natural audience overlap with Commons Protocol public-facing materials.
+
+Both added to deferred contacts list — not priority now but file for when protocol has more institutional standing.
