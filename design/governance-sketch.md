@@ -1,5 +1,5 @@
 # Commons Protocol — Governance Sketch
-### Design document v0.2 / internal / not for publication
+### Design document v0.3 / internal / not for publication
 
 ---
 
@@ -109,7 +109,51 @@ Beyond the temporal independence criterion described above, the following mechan
 
 ---
 
-## What this document does not resolve
+## Custodian selection, accountability, and succession
+
+The founding document states that those who tend the protocol are custodians, not authors. This section specifies what that means in practice — how custodians are chosen, what they are accountable for, how they are removed, and how succession works. This is the governance layer most vulnerable to capture, and the one that every commons system in history has most frequently failed to protect. It requires more structural rigour than any other element of this design.
+
+**What custodians do — and do not do**
+
+Custodians tend the canonical founding document and protocol specification. They do not determine which questions are elevated. They do not set policy. They do not speak for the protocol in public. Their role is specifically and only: to receive proposed improvements to the design documents, review them against the founding principles, incorporate what strengthens the design, and maintain the version record. Any custodian who attempts to exercise substantive authority beyond this remit is acting outside their role and subject to removal.
+
+**Selection**
+
+Custodians are nominated by verified participants who have reached the Steward tier through demonstrated participation history. Nomination requires endorsement from participants across at least three distinct regional groupings — no nomination from a single culturally or geographically homogeneous group is valid. No self-nomination. No appointment by existing custodians without community endorsement. The selection process is published and contestable.
+
+The founding steward problem — how the first custodian cohort is selected before the participant community exists — is a genuine bootstrapping challenge. The initial custodian cohort must be self-selecting by necessity, but their selection must be documented transparently and treated as provisional, subject to ratification by the first sufficiently diverse verified participant community.
+
+**Terms and rotation**
+
+Custodian terms are fixed at two years, non-renewable without a minimum one-year cooling-off period. No custodian may serve consecutive terms. Rotation is mandatory. Succession is managed by the outgoing custodian cohort in conjunction with a randomly selected participant panel — custodians do not unilaterally choose their successors.
+
+**Accountability**
+
+All custodian decisions — every revision accepted or rejected, every version change, every procedural determination — are published with reasoning. The version history is permanent and publicly auditable. Custodians may be publicly questioned by any verified participant. Responses are published.
+
+The custodian layer uses a two-tier accountability structure: internal peer accountability within the custodian cohort, and external community accountability. Custodians review each other's decisions. The community reviews the cohort's overall conduct. Neither layer alone is sufficient — internal peer review catches specific errors; community oversight catches systematic drift. Both are required.
+
+**Removal**
+
+Any verified participant may initiate a removal process against a custodian. The initiating participant must specify which procedural principle was violated — removal on grounds of substantive disagreement with a custodian's editorial judgement is not a valid basis for removal. Valid removal grounds include: acting outside custodian remit, failure to publish reasoning for decisions, conflict of interest not disclosed, or demonstrated coordination with external interests contrary to the founding principles.
+
+A valid removal petition triggers a review by a randomly selected panel of fifteen verified participants drawn from at least five distinct regional groupings. Removal requires a supermajority — at least ten of fifteen panel members. Removed custodians may not be renominated for five years.
+
+**Collective bad faith — the hardest case**
+
+The removal mechanism above handles individual custodian failures. The harder case is collective custodian bad faith — where the entire custodian cohort acts in coordination against the founding principles. No internal accountability mechanism addresses this because the accountability mechanism is itself captured.
+
+The mitigation is structural rather than procedural: the founding document is published under a Creative Commons licence that allows any person or group to fork the document and establish a competing canonical version. The protocol cannot be owned, and a captured custodian cohort cannot prevent a legitimate alternative from emerging. Community legitimacy — which version participants treat as canonical — is the ultimate check on custodian capture. A captured version loses participants to the legitimate alternative.
+
+This is an imperfect solution. It requires the community to recognise capture and act on it. But it is the most structurally honest answer available: stated boundaries erode; structural boundaries hold. The fork mechanism is the structural boundary of last resort.
+
+**Compensation**
+
+Custodians receive compensation through the Commons Energy Unit model described in the token funding layer document — non-transferable, non-speculative, earned through verified ongoing custodial work. The compensation model is itself subject to community governance: custodian remuneration is determined through the same transparent, contestable process the protocol uses for other governance decisions. This is the recursive self-application principle: the protocol governs its own resource allocation using its own methodology, turning the funding problem from a vulnerability into a demonstration of the protocol working.
+
+---
+
+
 
 The following questions remain open and require input from people with relevant technical, legal, and governance expertise:
 
@@ -133,6 +177,6 @@ The goal is not to defend this design but to arrive, through open critique, at a
 
 ---
 
-*Version 0.2 — internal working document — not for publication*
+*Version 0.3 — internal working document — not for publication*
 *No author. No organisation.*
 *Released under Creative Commons Attribution-NonCommercial-ShareAlike 4.0*
