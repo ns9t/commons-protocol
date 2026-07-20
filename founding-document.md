@@ -1,5 +1,5 @@
 # Global Commons Consensus Protocol
-### A founding design philosophy — v0.9 draft / not for publication
+### A founding design philosophy — v1.0
 
 ---
 
@@ -54,6 +54,8 @@ The Commons Protocol is a protocol, not a platform. It is a way of surfacing, ve
 
 Its output is not posts, feeds, or follower counts. Its output is a single, legible signal: *on this question, at this time, this is what a verifiable and representative portion of humanity thinks.*
 
+The protocol does not claim to produce objective truth. It produces a record of expressed human conscience at a given moment, with all the perceptual, linguistic, and cultural complexity that entails. That is a more honest and more defensible claim — and, if the design holds, a more consequential one.
+
 That signal has no enforcement mechanism. It makes no laws. It commands no armies. What it does — if designed well and adopted widely — is make the distance between power and conscience *visible*. It makes it harder to claim legitimacy while acting against the expressed will of the people on whose behalf that legitimacy is claimed.
 
 This is not a small thing. Legitimacy is the only currency that power ultimately cannot print.
@@ -68,9 +70,9 @@ It is not a petition platform. Petitions ask power to act. The Commons Protocol 
 
 It is not a news platform. It does not produce content. It produces signal.
 
-It is not affiliated with any government, political party, religion, or ideology. Its political neutrality is structural, not aspirational — built into the architecture, not promised by its founders.
+It is not affiliated with any government, political party, religion, or ideology. Its purpose is not neutrality in the conventional sense — it does not stand apart from the world in studied detachment. Its purpose is freedom of expression and exchange of values: a structure in which any human voice can be heard, any position expressed, any conscience recorded, without the signal being owned, directed, or corrupted by any interest. That freedom is structural, not aspirational — built into the architecture, not promised by its founders.
 
-It is not owned by anyone. Those who tend it are custodians, not authors. Those who build on it are implementers, not owners. What is built here belongs to the species that uses it.
+It is not owned by anyone. Those who tend it are custodians, not authors. Those who build on it are implementers, not owners. What is built here belongs to humanity in its full diversity — to every person who uses it, regardless of geography, language, wealth, or status.
 
 ---
 
@@ -157,7 +159,9 @@ If forty million people signal that a rainforest must be protected, and the gove
 
 What has been achieved is a *permanent, verifiable, cryptographically signed record* of the expressed will of a cross-section of humanity on a specific question, at a specific time. That record cannot be deleted, falsified, or suppressed. It is available to journalists, to courts, to historians, to future governments, and to every person who wants to know whether their conscience is shared.
 
-History shows that legitimacy, once visibly withdrawn at sufficient scale, costs power something — not always immediately, not always directly, but reliably over time. The apartheid system did not fall to a single pressure point. Colonial systems did not end through military defeat alone. The withdrawal of legitimacy — made visible, made legible, made undeniable — operates on a longer timescale than a news cycle but a shorter one than a generation.
+The protocol does not create the conscience it records. Humanity's immune response to commons extraction — the million-plus organisations catalogued by Paul Hawken, the 600,000 citizens whose signatures made the Mar Menor lagoon in Spain the first ecosystem in Europe with legal rights, the indigenous communities whose relationship to land and water has never required legal recognition to be real — all of this already exists. The Commons Protocol is infrastructure for making it legible, not for calling it into being.
+
+History shows that legitimacy, once visibly withdrawn at sufficient scale, costs power something — not always immediately, not always directly, but reliably over time. The tobacco industry suppressed evidence that its product killed people for fifty years — until the gap between what it claimed and what people knew became too large and too visible to sustain. The withdrawal of legitimacy — made visible, made legible, made undeniable — operates on a longer timescale than a news cycle but a shorter one than a generation.
 
 The Commons Protocol is not a mechanism for immediate consequence. It is infrastructure for the slow, cumulative, permanent withdrawal of legitimacy from power that acts against the expressed conscience of humanity. That is a measured claim about any given moment. It is a civilisational claim about the direction of travel.
 
@@ -173,9 +177,9 @@ The Commons Protocol does not emerge from a vacuum. Several existing efforts add
 
 **Project Drawdown** (Paul Hawken et al.) provides the most rigorous existing framework for quantifying and prioritising climate solutions globally. The Commons Protocol's treatment of environmental interconnection could be cross-referenced against Drawdown's methodology.
 
-**The Fediverse / ActivityPub protocol** provides existing federated infrastructure on which an implementation could be built — no single server, no single owner, interoperable across instances.
+**The Fediverse / ActivityPub protocol** provides existing federated infrastructure on which an implementation could be built — no single server, no single owner, interoperable across instances. ActivityPub is the W3C standard underlying Mastodon and the broader federated social web.
 
-**Nostr** offers a more radically decentralised alternative — a censorship-resistant communication protocol in which identity is cryptographically self-sovereign.
+**Nostr** offers a distinct and complementary alternative — a more radically decentralised, censorship-resistant communication protocol in which identity is cryptographically self-sovereign. Nostr and the Fediverse are not interchangeable; they reflect different design philosophies and different threat models, both relevant to the Commons Protocol's infrastructure layer.
 
 **Consul Project** (consulproject.org) is an open-source participatory democracy platform now used in dozens of cities globally. Its deliberation and participatory mechanisms are relevant prior art for the question elevation process.
 
@@ -183,13 +187,27 @@ The Commons Protocol is not in competition with any of these. It is a coordinati
 
 ---
 
-## A note on stewardship
+## A note on stewardship and governance
 
 This document has no author. It belongs to no organisation.
 
 It does, however, require tending. The canonical version — the trunk from which any implementations branch — needs a home and a custodian. Not an owner. Not a founder. A gardener.
 
 The stewardship model is explicitly custodial: those who tend the document and the protocol specification do so in service of the principles, not in exercise of authority over them. Their role is to receive proposed improvements, review them against the founding principles, incorporate what strengthens the design, and maintain the version record that allows anyone to understand how and why the document has evolved.
+
+**How the protocol is governed — a plain-language summary**
+
+The Commons Protocol is governed the way a language is governed: by everyone who uses it, with no single authority, evolving through collective use and critique rather than central decree. No committee decides what questions matter. No organisation controls the output. The governance is distributed across three layers: the question elevation process (a structured filter through which questions demonstrate cross-cultural resonance before reaching the global tier); the custodian layer (a small rotating group who maintain the design documents and version record, selected by verified participants and accountable to them); and the community layer (all verified participants, who can contest any decision and propose any revision). The full mechanics are developed in the governance design document in this repository.
+
+Custodians are selected by verified participants, serve fixed terms, are subject to removal by community process, and cannot unilaterally determine what the protocol does or says. Their decisions are published in full. The version history is permanent and auditable. Custodian capture — where those who tend the protocol act against its founding principles — is the primary governance risk this design takes seriously. The mitigation is structural: the founding document is published under a Creative Commons licence, meaning a captured custodian cohort cannot prevent a legitimate alternative from emerging. Community legitimacy is the ultimate check.
+
+**On distributed infrastructure**
+
+The protocol is designed so that no single actor — state, commercial, or otherwise — can switch it off or compel access to its records. This is achieved through federated and distributed infrastructure: rather than a single server that can be subpoenaed or shut down, the protocol runs across many independent nodes, none of which holds the complete record. Suppressing the Commons Protocol would require suppressing the distributed infrastructure of the internet itself. The Fediverse (ActivityPub protocol) and Nostr represent two distinct and complementary approaches to this kind of infrastructure — the first more mature and community-oriented, the second more radically decentralised and censorship-resistant. Both are relevant prior art.
+
+**On polylateralism**
+
+The governance model the Commons Protocol embodies is what the humanitarian scholar Randolph Kent has called *polylateralism* — distributed governance reflecting diverse constituencies from across the world with perceived common interests and possibly common values. This is distinguished from both multilateralism (governance by nation-states) and unilateralism (governance by a single dominant actor). The Commons Protocol is a polylateral instrument: its legitimacy derives not from state membership or institutional affiliation but from the verified participation of individuals across the full diversity of humanity.
 
 The founding document itself is not offered for forking. It is the constitution, not the legislation — the trunk, not the branches. Implementations may vary enormously. The principles may not.
 
@@ -227,7 +245,7 @@ If you want to contribute, open an issue in this repository or propose a revisio
 
 ---
 
-*Version 0.9 — working draft — not for publication*
+*Version 1.0*
 *No author. No organisation.*
 *Released under Creative Commons Attribution-NonCommercial-ShareAlike 4.0*
 *This document is in the public domain of ideas.*
