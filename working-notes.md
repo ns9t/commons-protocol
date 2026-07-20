@@ -6,7 +6,7 @@
 
 ## Status summary
 
-Repository public at github.com/ns9t/commons-protocol. Founding document at v0.9 — v1.0 revision pending (see Flag 50). Verification sketch at v0.4. Governance sketch at v0.2. Token funding layer at v0.2. Full design suite in /design folder. Essay "Wiring the Organism" published — no public responses but substantive engagement from Randolph Kent. Reply to Randolph sent. Adam Stallard (BrightID founder) engaged via Metagovernance Slack. Stewardship email: commonsprotocol@proton.me.
+Repository public at github.com/ns9t/commons-protocol. Founding document at v1.0. Verification sketch at v0.4. Governance sketch at v0.3. Token funding layer at v0.2. Full design suite in /design folder. Essay "Wiring the Organism" published — no public responses but substantive engagement from Randolph Kent. Reply to Randolph sent. Adam Stallard (BrightID founder) engaged via Metagovernance Slack. Stewardship email: commonsprotocol@proton.me.
 
 ---
 
@@ -22,7 +22,7 @@ Hold.
 "Global Commons Consensus Protocol" as full name, "Commons Protocol" as short form. Consistent throughout from v0.8. Deferred.
 
 **Flag 5 — Publication timing**
-Repository public. Essay published. First specialist critiques received (Adam Stallard, Randolph Kent). Next threshold: founding document v1.0 revision incorporating accumulated critique. Trigger: either Randolph's governance sketch response arrives, or four weeks elapse — whichever comes first.
+Founding document v1.0 complete and published. All revision items from Flag 50 incorporated. Closed.
 
 **Flag 50 — Founding document v1.0 revision items**
 The following specific revisions are queued for the next full revision pass. Do not patch incrementally — do once, cleanly, as v1.0.
@@ -55,7 +55,7 @@ The following specific revisions are queued for the next full revision pass. Do 
 ## Active flags — governance design
 
 **Flag 10 — Governance sketch status**
-v0.2 complete. Randolph Kent invited to review and provide experience-grounded critique — direct link sent. Await his response.
+v0.3 complete. Custodian selection, accountability, succession, and collective bad faith sections added. Recursive compensation model included. Sent to Anton Parf for audit. Ready for further specialist critique.
 
 **Flag 11 — Temporal independence criterion**
 Publish methodology openly for external audit. Noted for implementation.
@@ -212,12 +212,12 @@ Three prioritised needs in order:
 
 ```
 commons-protocol/
-├── founding-document.md (v0.9 — v1.0 revision pending)
+├── founding-document.md (v1.0)
 ├── working-notes.md
 ├── README.md
 ├── LICENCE
 └── design/
-    ├── governance-sketch.md (v0.2)
+    ├── governance-sketch.md (v0.3)
     ├── verification-sketch.md (v0.4)
     ├── evidence-record-design.md (v0.1)
     ├── token-funding-layer.md (v0.2)
