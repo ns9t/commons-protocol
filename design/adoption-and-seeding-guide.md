@@ -27,9 +27,13 @@ This means the relationship between the Commons Protocol and existing civic plat
 
 Neither makes the other redundant. Each makes the other more valuable. A civic platform without a global signal layer produces local consensus with no mechanism for global consequence. A global signal layer without existing communities to draw from has no participants and no questions.
 
-The Commons Protocol's adoption challenge is therefore different from the cold start problem. It is not "how do we attract users?" It is "how do we convince existing platforms that integration is worth their while?" That is a relationship and value proposition question, not a user acquisition question.
+The complementarity runs in three directions, not two:
 
-Integration gives every existing platform's users a global voice they don't currently have. That is a new capacity, not available from any existing platform working alone. It is a win for the platform's users, a win for the platform's mission, and a win for the Commons Protocol's signal.
+**What the Commons Protocol gives existing platforms:** A global signal layer they could not build alone. A permanent, cryptographically signed record of cross-cultural consensus that gives their community's questions reach and consequence beyond their own user base.
+
+**What existing platforms give the Commons Protocol:** The communities it needs to produce a meaningful signal — verified participants, local questions, cultural diversity, geographic spread.
+
+**What the Commons Protocol gives existing platforms' potential users:** Discovery. A participant engaging with a question about civic representation may be directed toward The People's Branch, where that question is being actively deliberated. A participant interested in participatory constitutional design may be directed toward Pangea. The signal layer creates discovery pathways into deliberation platforms — not just the reverse. For platform builders with small user bases, this is a meaningful incentive: connection to the Commons Protocol is also a channel through which new participants find their way to the platform.
 
 ---
 
@@ -72,7 +76,7 @@ Rather than asking a platform's users to leave and participate in the Commons Pr
 
 *For a platform like Pangea:* A constitutional group within Pangea that passes a resolution on a matter of global commons significance could nominate that resolution for elevation through the Commons Protocol's question process. Pangea's homomorphic ballot encryption and tamper-evident history could potentially serve as evidence of the resolution's legitimacy within the local tier. The two systems complement rather than compete.
 
-*For a platform like Polis or the Computational Democracy Project's tools:* Opinion clustering outputs that identify genuine cross-cultural consensus could be translated into protocol-standard questions and elevated. The deliberation happens on the existing platform; the permanent global record is produced by the Commons Protocol.
+*For a platform like Polis or the Computational Democracy Project's tools:* Opinion clustering outputs that identify cross-cultural consensus could be translated into protocol-standard questions and elevated. The deliberation happens on the existing platform; the permanent global record is produced by the Commons Protocol.
 
 **What integration requires from platform builders:**
 An API connection to the protocol's question submission layer, a commitment to the protocol's question framing standards (neutral framing, evidence record requirement), and an identity bridge — a way for the platform's verified users to be counted as verified participants in the Commons Protocol without double-counting. This is where BrightID Aura's domain architecture becomes relevant: a platform that uses BrightID for identity verification can connect directly to the Commons Protocol's verification layer without requiring users to reverify.
@@ -103,7 +107,7 @@ The relationship can be understood as follows:
 
 **Existing platforms are where deliberation happens.** They provide the interfaces, the community building, the conversation tools, the voting mechanisms, the constitutional processes. They are good at turning a group of people into a deliberating community.
 
-**The Commons Protocol is where the permanent global signal is produced.** It takes the outputs of deliberating communities — their questions, their concerns, their expressed positions — and elevates the ones with genuine cross-cultural resonance into a verified, cryptographically signed, permanently archived global record.
+**The Commons Protocol is where the permanent global signal is produced.** It takes the outputs of deliberating communities — their questions, their concerns, their expressed positions — and elevates the ones with cross-cultural resonance into a verified, cryptographically signed, permanently archived global record.
 
 Neither can do what the other does. A civic platform without a global signal layer produces local consensus with no mechanism for global consequence. A global signal layer without existing communities to draw from has no participants and no questions.
 
@@ -125,7 +129,7 @@ The Mar Menor lagoon in Spain required 600,000 signatures and years of civic mob
 
 ## Seeding priorities for the protocol's first phase
 
-The protocol cannot be seeded everywhere simultaneously. The following priorities reflect the communities most likely to produce genuine cross-cultural resonance questions in the protocol's first iteration, and the organisations most naturally positioned to establish local tier nodes or platform integrations.
+The protocol cannot be seeded everywhere simultaneously. The following priorities reflect the communities most likely to produce cross-cultural resonance questions in the protocol's first iteration, and the organisations most naturally positioned to establish local tier nodes or platform integrations.
 
 **Priority 1 — Humanitarian and environmental NGOs with existing field presence**
 Organisations like Ushahidi (crisis mapping, 160+ countries), Global Witness (resource extraction accountability), and regional environmental justice networks already have relationships with the communities most affected by commons extraction. A local tier node within an existing NGO programme adds minimal burden while connecting those communities to the global signal layer.
