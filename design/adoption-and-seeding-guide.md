@@ -13,13 +13,13 @@ This document is written for three audiences: civil society organisations and NG
 
 ## The cold start problem — and why the Commons Protocol doesn't have one in the conventional sense
 
-Every participatory platform faces the same fundamental challenge: the signal only has meaning when enough people are producing it, but enough people won't produce it until they believe the signal has meaning. Most platforms attempt to solve this by building a compelling interface and waiting for users to arrive. This is the cold start problem, and it is genuinely hard.
+Every participatory platform faces the same fundamental challenge: the signal only has meaning when enough people are producing it, but enough people won't produce it until they believe the signal has meaning. Most platforms attempt to solve this by building a compelling interface and waiting for users to arrive. This is the cold start problem.
 
 The Commons Protocol does not claim to have solved it. What it claims is something more useful: it doesn't have the cold start problem in the same form, because it is not trying to attract users to a new interface.
 
 The Commons Protocol is a layer, not a destination. Its participants are the people already using The People's Branch, Pangea, Polis, Consul, and every other civic platform. Its communities are the members of every humanitarian NGO, environmental cooperative, and neighbourhood association that chooses to connect. It does not need those people to leave the platforms they trust and navigate something new. It needs their platforms to connect to the global elevation layer.
 
-This means the relationship between the Commons Protocol and existing civic platforms is not competitive. It is genuinely complementary — and the complementarity runs in both directions.
+This means the relationship between the Commons Protocol and existing civic platforms is not competitive. It is complementary in both directions.
 
 **What the Commons Protocol gives existing platforms:** A global signal layer they could not build alone. A permanent, cryptographically signed record of cross-cultural consensus that gives their community's questions reach and consequence beyond their own user base. The ability to say: this question mattered not just to our users, but to verified participants across 94 countries and 47 language groups.
 
@@ -29,7 +29,7 @@ Neither makes the other redundant. Each makes the other more valuable. A civic p
 
 The Commons Protocol's adoption challenge is therefore different from the cold start problem. It is not "how do we attract users?" It is "how do we convince existing platforms that integration is worth their while?" That is a relationship and value proposition question, not a user acquisition question.
 
-The answer to that question is in the preceding paragraph: integration gives every existing platform's users a global voice they don't currently have. That is a genuinely new capability, not available from any existing platform working alone. It is a win for the platform's users, a win for the platform's mission, and a win for the Commons Protocol's signal.
+Integration gives every existing platform's users a global voice they don't currently have. That is a new capacity, not available from any existing platform working alone. It is a win for the platform's users, a win for the platform's mission, and a win for the Commons Protocol's signal.
 
 ---
 
