@@ -11,13 +11,25 @@ This document is written for three audiences: civil society organisations and NG
 
 ---
 
-## The cold start problem and how the protocol addresses it
+## The cold start problem — and why the Commons Protocol doesn't have one in the conventional sense
 
-Every participatory platform faces the same fundamental challenge: the signal only has meaning when enough people are producing it, but enough people won't produce it until they believe the signal has meaning. Most platforms attempt to solve this by building a compelling interface and waiting for users to arrive. The Commons Protocol takes a different approach.
+Every participatory platform faces the same fundamental challenge: the signal only has meaning when enough people are producing it, but enough people won't produce it until they believe the signal has meaning. Most platforms attempt to solve this by building a compelling interface and waiting for users to arrive. This is the cold start problem, and it is genuinely hard.
 
-The protocol is not a destination. It is a layer. It is designed to run on top of, inside, and alongside communities and platforms that already exist — drawing signal from where people already are rather than asking them to go somewhere new.
+The Commons Protocol does not claim to have solved it. What it claims is something more useful: it doesn't have the cold start problem in the same form, because it is not trying to attract users to a new interface.
 
-This means the protocol's adoption strategy is not marketing. It is integration and delegation. The communities who will eventually produce the global signal do not need to know about the Commons Protocol. They need to have a question they care about, and they need someone who does know about the protocol to ensure that question enters the elevation process.
+The Commons Protocol is a layer, not a destination. Its participants are the people already using The People's Branch, Pangea, Polis, Consul, and every other civic platform. Its communities are the members of every humanitarian NGO, environmental cooperative, and neighbourhood association that chooses to connect. It does not need those people to leave the platforms they trust and navigate something new. It needs their platforms to connect to the global elevation layer.
+
+This means the relationship between the Commons Protocol and existing civic platforms is not competitive. It is genuinely complementary — and the complementarity runs in both directions.
+
+**What the Commons Protocol gives existing platforms:** A global signal layer they could not build alone. A permanent, cryptographically signed record of cross-cultural consensus that gives their community's questions reach and consequence beyond their own user base. The ability to say: this question mattered not just to our users, but to verified participants across 94 countries and 47 language groups.
+
+**What existing platforms give the Commons Protocol:** The communities it needs to produce a meaningful signal. The verified participants, the local questions, the cultural diversity, the geographic spread. Without them, the protocol has architecture but no signal.
+
+Neither makes the other redundant. Each makes the other more valuable. A civic platform without a global signal layer produces local consensus with no mechanism for global consequence. A global signal layer without existing communities to draw from has no participants and no questions.
+
+The Commons Protocol's adoption challenge is therefore different from the cold start problem. It is not "how do we attract users?" It is "how do we convince existing platforms that integration is worth their while?" That is a relationship and value proposition question, not a user acquisition question.
+
+The answer to that question is in the preceding paragraph: integration gives every existing platform's users a global voice they don't currently have. That is a genuinely new capability, not available from any existing platform working alone. It is a win for the platform's users, a win for the platform's mission, and a win for the Commons Protocol's signal.
 
 ---
 
