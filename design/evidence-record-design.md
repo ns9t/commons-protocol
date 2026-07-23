@@ -13,7 +13,7 @@ v0.2 incorporates three rounds of specialist input not available at v0.1: Adam S
 
 Every question in the Commons Protocol carries an attached evidence record — a structured collection of sources that participants can consult when forming their response. The founding document establishes that the protocol does not take positions; it ensures participants have access to the information needed to form their own. The evidence record is the mechanism through which that principle is operationalised.
 
-The protocol does not claim that its evidence records contain objective truth. They contain the best available verified information at a given moment, assembled through a process designed to resist capture and open to ongoing contestation.
+The protocol does not claim that its evidence records contain objective truth. They contain the best available verified information at a given moment, assembled through a process designed to resist capture and open to ongoing contestation. That is a more honest and more defensible claim.
 
 ---
 
@@ -216,6 +216,20 @@ The hybrid and distributed models reduce but do not eliminate the most serious u
 Documented cases include pharmaceutical industry selective publication, agrochemical safety research distortion, and tobacco industry manufacture of scientific uncertainty. The domain-specific rubric notes above address these cases directly, but they cannot fully neutralise the problem in first iteration.
 
 The honest position for first iteration: the distributed model's multiple independent teams, crowd wisdom accountability, and published ontological grounding provide substantially better protection against epistemic capture than any centralised expert panel or community classification system alone. But they do not guarantee it. The protocol operates within known limitations and names them rather than concealing them.
+
+---
+
+## A note on evidence burden — existence vs causality
+
+Not all evidence questions carry the same evaluation burden. A distinction proposed by Anton Parf (Anthosphere) in the context of the Amazon deforestation question is worth building into the design:
+
+**Existence evidence** — the phenomenon is happening. Often visually verifiable and satellite-confirmed. Amazon deforestation visible from orbit. Fish dying in a lagoon. A library that has closed. For these questions, demanding the full Approach C distributed evaluation process before the signal can be produced gives bad actors a bureaucratic escape route — the forest continues to be cut while evaluators deliberate. Existence evidence should carry a low evaluation burden: verification that the source is real and unaltered (the LifeProof Cam layer), not a full credibility assessment.
+
+**Causality and accountability evidence** — why the phenomenon is happening, who is responsible, what the downstream consequences are. This is where the complexity lives, where institutional capture of evidence is most likely, and where the full distributed evaluation process is warranted. Who authorised the deforestation? Who benefits from it? What are the downstream consequences for rainfall, biodiversity, and communities? These questions require expert evaluation.
+
+The evidence record design should apply the Approach C rubric primarily to causality and accountability evidence, with a lighter-touch verification standard for existence evidence. Conflating the two burdens either makes the protocol unresponsive to obvious facts or makes it trivially gameable by flooding it with unverified claims.
+
+This distinction is not yet fully resolved in the rubric above and will require further design work — particularly around what counts as sufficient verification for existence evidence in contexts where visual confirmation is not available.
 
 ---
 
