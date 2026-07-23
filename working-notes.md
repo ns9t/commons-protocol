@@ -223,7 +223,8 @@ commons-protocol/
     ├── token-funding-layer.md (v0.2)
     ├── tiered-access-specification.md (v0.1 — v0.2 needed)
     ├── interconnection-map-design.md (v0.2)
-    └── influences-prior-art.md (v0.1)
+    ├── influences-prior-art.md (v0.1)
+    └── adoption-guide.md (v0.1 — new)
 ```
 
 ---
@@ -517,3 +518,8 @@ Incorporated into interconnection map design document v0.2 as a new experiential
 Emergence Magazine (emergencemagazine.org) — publication at the intersection of ecology, culture, and spirituality. The editorial context in which MLF's work circulates. Potential publication venue for "The God in the River" essay. Natural audience overlap with Commons Protocol public-facing materials.
 
 Both added to deferred contacts list — not priority now but file for when protocol has more institutional standing.
+
+**Flag 71 — Adoption and seeding guide (new document)**
+adoption-guide.md v0.1 drafted. Three adoption pathways described: local tier node (organisations establishing community participation), platform integration (existing civic platforms connecting to protocol elevation layer), and delegated participation (individuals raising questions on behalf of communities without direct access). Concrete examples: Senegalese fishing cooperative, contaminated water source in DRC, The People's Branch integration, Pangea integration. Seeding priorities identified: humanitarian NGOs with field presence, existing civic tech platforms, academic communities, investigative journalist networks. What this document does not resolve: minimum viable adoption package, consent standards for delegated participation, interoperability API standard, verification bridge for platform integrations, incentive alignment for platform adoption.
+
+This document is directly relevant to conversations with Harley Goodwin (The People's Branch) and Francesco Bonetti (Pangea) — both represent Platform Integration pathway. Share once those relationships develop further.
