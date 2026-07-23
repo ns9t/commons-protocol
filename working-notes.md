@@ -81,10 +81,10 @@ Skilled verifier model addresses small-scale. Large-scale remains open.
 ## Active flags — evidence record design
 
 **Flag 17 — Evidence record design status**
-v0.1 complete. Hybrid model as working hypothesis. Awaiting specialist input. Randolph's comment on language and perception (Amazon example framing) reinforces urgency — framing review process needs to be described more accessibly in founding document (see Flag 50).
+v0.2 complete. Three approaches now specified: A (protocol-defined standards), B (community classification), C (distributed evaluation model — primary working hypothesis). Full operational rubric added with five assessment dimensions and domain-specific guidance. AI-assisted evaluation layer specified. Contestation process specified. Plugging into Aura/Updraft infrastructure described. Adam Stallard and Anton Parf credited in version notes.
 
 **Flag 18 — Approach A vs B**
-Do not resolve without specialist input. Adam's ecological evidence records Aura domain proposal (Flag 61) may provide a concrete mechanism for Approach B — community classification with open contestation — without needing to build it from scratch.
+Resolved in favour of Approach C (distributed evaluation model) as primary working hypothesis, incorporating elements of both A and B. Adam Stallard's Aura/Updraft architecture provides the infrastructure. Anton Parf's Anthosphere evaluation experience maps onto the AI-assisted evaluation layer. Closed as design question; implementation remains open. Adam's ecological evidence records Aura domain proposal (Flag 61) may provide a concrete mechanism for Approach B — community classification with open contestation — without needing to build it from scratch.
 
 **Flag 19 — The epistemic bias problem**
 Named cases documented. Political problem, not technical. First iteration operates within known limitations.
@@ -219,7 +219,7 @@ commons-protocol/
 └── design/
     ├── governance-sketch.md (v0.3)
     ├── verification-sketch.md (v0.4)
-    ├── evidence-record-design.md (v0.1)
+    ├── evidence-record-design.md (v0.2)
     ├── token-funding-layer.md (v0.2)
     ├── tiered-access-specification.md (v0.1 — v0.2 needed)
     ├── interconnection-map-design.md (v0.2)
@@ -340,8 +340,10 @@ Separate from BrightID connection. Attempting to access aura.brightid.org produc
 **Clarification on BrightID vs Aura relationship:**
 BrightID is the identity layer — social graph establishing unique personhood. Aura is the evaluation layer — credibility and expertise assessment built on top of BrightID. BrightID connection does not automatically grant Aura access. The Add Device failure is blocking the bridge between the two. A single BrightID connection (with Adam) does not yet confer verification status — needs more connections across diverse social contexts for the graph to confirm uniqueness.
 
-**Language limitation (raised in Discord):**
-Only English and Spanish available for verification scheduling. Flagged in BrightID Discord as concrete feedback. Contradicts multilingual-by-default principle — significant constraint for a genuinely global protocol.
+**Language limitation — confirmed as usage problem not design flaw:**
+BrightID previously offered verification parties in top 8 languages (English, Russian, Bengali, Hindi, Urdu, Chinese, Spanish, Bahasa and more) but has scaled back to English and Spanish due to low traffic. Confirmed by community member Shahin in BrightID Discord, 01/07/2026. The architecture supports multilingual verification; the community isn't large enough to sustain it at scale right now. This is consistent with the broader low-activity picture across BrightID, Aura, and Updraft.
+
+Implication for Commons Protocol: BrightID Aura cannot currently be depended on as production-ready infrastructure for global multilingual verification. It is the right long-term direction but needs a larger user base. The relationship is mutually dependent — the Commons Protocol needs BrightID to verify its community, and BrightID needs the Commons Protocol community to help build its user base. Neither can fully serve the other at current scale.
 
 **Zoom concern (resolved):**
 Not a structural design flaw. Any trusted channel works — Discord, face-to-face, any pre-existing relationship. Face-to-face is preferred. Zoom was never a requirement, only a default option. Anonymity concern substantially mitigated.
