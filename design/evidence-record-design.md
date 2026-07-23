@@ -13,7 +13,7 @@ v0.2 incorporates three rounds of specialist input not available at v0.1: Adam S
 
 Every question in the Commons Protocol carries an attached evidence record — a structured collection of sources that participants can consult when forming their response. The founding document establishes that the protocol does not take positions; it ensures participants have access to the information needed to form their own. The evidence record is the mechanism through which that principle is operationalised.
 
-The protocol does not claim that its evidence records contain objective truth. They contain the best available verified information at a given moment, assembled through a process designed to resist capture and open to ongoing contestation. That is a more honest and more defensible claim.
+The protocol does not claim that its evidence records contain objective truth. They contain the best available verified information at a given moment, assembled through a process designed to resist capture and open to ongoing contestation.
 
 ---
 
