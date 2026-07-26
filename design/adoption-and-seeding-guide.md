@@ -1,13 +1,27 @@
 # Commons Protocol — Adoption and Seeding Guide
-### Design document v0.1 / internal / not for publication
+### Design document v0.1
 
 ---
 
-## Purpose of this document
+## Why this document exists
 
-The founding document describes the Commons Protocol as designed to be seeded into existing networks rather than requiring communities to find and join a new platform. This document explains what that means in practice — how the protocol reaches communities, what adoption looks like for different kinds of organisations and platforms, and how the question elevation process connects to people who may never know they are participating in a global consensus mechanism.
+There are hundreds of projects working on pieces of the same problem — civic signal, participatory governance, democratic accountability, commons protection. Most of them are building alone. Most of them have thin user bases. Most of them are doing extraordinary work that almost nobody can find.
 
-This document is written for three audiences: civil society organisations and NGOs considering whether and how to engage with the protocol; builders of existing civic and governance platforms considering integration; and community organisers who want to raise questions at the global level but do not have technical capacity to build infrastructure themselves.
+This is not a failure of quality. It is a failure of connection.
+
+The Commons Protocol is not another platform competing for the same scarce attention. It is designed to be the connective tissue — the layer that makes every serious civic platform more powerful by connecting its outputs to a permanent, globally verified signal that none of them can produce alone.
+
+What this means in practice:
+
+If you have built a deliberation platform, the Commons Protocol gives your community's best questions a global audience and a permanent record.
+
+If you have built a civic signal tool, the Commons Protocol gives your signal reach beyond your own user base and a cryptographic permanence that makes it impossible to ignore or deny.
+
+If you have built a governance system, the Commons Protocol gives your community's decisions a way to become legible to the world outside your community.
+
+And in return — the Commons Protocol directs its participants toward the platforms where their questions are being actively deliberated. Your platform becomes a discovery destination, not just a destination for people who already know about it.
+
+This is not a merger. It is not a dependency. It is an offer: connect your project to the global signal layer, and your project becomes part of something larger than any of us is building alone.
 
 ---
 
@@ -19,15 +33,7 @@ The Commons Protocol does not claim to have solved it. What it claims is somethi
 
 The Commons Protocol is a layer, not a destination. Its participants are the people already using The People's Branch, Pangea, Polis, Consul, and every other civic platform. Its communities are the members of every humanitarian NGO, environmental cooperative, and neighbourhood association that chooses to connect. It does not need those people to leave the platforms they trust and navigate something new. It needs their platforms to connect to the global elevation layer.
 
-This means the relationship between the Commons Protocol and existing civic platforms is not competitive. It is complementary in both directions.
-
-**What the Commons Protocol gives existing platforms:** A global signal layer they could not build alone. A permanent, cryptographically signed record of cross-cultural consensus that gives their community's questions reach and consequence beyond their own user base. The ability to say: this question mattered not just to our users, but to verified participants across 94 countries and 47 language groups.
-
-**What existing platforms give the Commons Protocol:** The communities it needs to produce a meaningful signal. The verified participants, the local questions, the cultural diversity, the geographic spread. Without them, the protocol has architecture but no signal.
-
-Neither makes the other redundant. Each makes the other more valuable. A civic platform without a global signal layer produces local consensus with no mechanism for global consequence. A global signal layer without existing communities to draw from has no participants and no questions.
-
-The complementarity runs in three directions, not two:
+This means the relationship between the Commons Protocol and existing civic platforms is not competitive. The complementarity runs in three directions:
 
 **What the Commons Protocol gives existing platforms:** A global signal layer they could not build alone. A permanent, cryptographically signed record of cross-cultural consensus that gives their community's questions reach and consequence beyond their own user base.
 
