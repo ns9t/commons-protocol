@@ -21,7 +21,7 @@ If you have built a governance system, the Commons Protocol gives your community
 
 And in return — the Commons Protocol directs its participants toward the platforms where their questions are being actively deliberated. Your platform becomes a discovery destination, not just a destination for people who already know about it.
 
-This is not a merger. It is not a dependency. It is an offer: connect your project to the global signal layer, and your project becomes part of something larger than any of us is building alone.
+This is not a merger or a dependency. It is an invitationm to connect your project to the global signal layer, and your project becomes part of something larger than any of us is building alone.
 
 ---
 
