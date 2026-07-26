@@ -243,6 +243,8 @@ The only condition: the principles travel with you. They are the load-bearing st
 
 If you want to contribute, open an issue in this repository or propose a revision. The conversation starts here.
 
+For organisations, platforms, and communities wondering how to connect to this project, the adoption and seeding guide at [design/adoption-and-seeding-guide.md](./design/adoption-and-seeding-guide.md) describes three practical pathways.
+
 ---
 
 *Version 1.0*
